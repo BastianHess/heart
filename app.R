@@ -20,7 +20,11 @@ ui <- page_sidebar( ###########################################################
              style = "margin-right: 10px; filter: invert(1);"), 
     "Heart Attack Dashboard"
   ),
-  theme = bs_theme(bootswatch = "pulse"), # gives us a pink/red accent — fitting for a heart attack dashboard.
+  theme = bs_theme(bootswatch = "pulse"), # pulse# gives us a pink/red accent — fitting for a heart attack dashboard.
+  # Try changing the theme: replace "pulse" with "flatly", "cosmo", or "superhero" (dark mode).
+  
+  # # add a dropdown to select the theme
+  # shinythemes::themeSelector(),
   sidebar = sidebar(
     selectInput(
       inputId = "outcome",
@@ -135,7 +139,7 @@ server <- function(input, output, session) { ##################################
   #   paste0(round(100 * sum(d$DIED == "Died") / nrow(d), 1), "%")
   # })
   
-  # new:
+  # new; mit ausgelagertem filtern:
   output$f_mortality <- renderText({
     compute_mortality(filtered_data()[filtered_data()$SEX == "Female", ])
   })
