@@ -43,7 +43,14 @@ ui <- page_sidebar( ###########################################################
       min = min(heart$AGE),
       max = max(heart$AGE),
       value = c(min(heart$AGE), max(heart$AGE))
+    ),
+    
+    actionButton(
+      inputId = "reset",
+      label = "Reset",
+      icon = bsicons::bs_icon("arrow-counterclockwise")
     )
+    
     
   ),
   navset_tab(
@@ -169,6 +176,8 @@ server <- function(input, output, session) { ##################################
       )
   })
   
+  # Challenge. Filter to “Died” only. What do you notice about the length of 
+  # stay? Try changing y = LOS to y = CHARGES for a different perspective.
   
   output$scatter_plot <- renderPlotly({
     df <- filtered_data()
@@ -179,13 +188,20 @@ server <- function(input, output, session) { ##################################
  #    browser()  #  to stop and check/look at things
                  #  call: summary(df) and  write.csv(df, "temp.csv")
     p <- ggplot(df, aes(x = AGE, y = LOS, color = SEX)) +
-      geom_point(alpha = 0.3) +
+      geom_point(alpha = 0.3) + # this makes overlapping points visible.
       labs(x = "Age", y = "Length of Stay (days)", color = "Sex") +
       geom_smooth(method = "lm", se = FALSE) +
       theme_minimal()
     ggplotly(p)
   })
   
+  observeEvent(input$reset, {
+    updateSelectInput(session, "outcome", selected = "All")
+    updateSelectInput(session, "diagnosis", selected = "All")
+    updateSelectInput(session, "drg", selected = "All")
+    updateSliderInput(session, "age_range",
+                      value = c(min(heart$AGE), max(heart$AGE)))
+  })
   
   
 } # End of server function
