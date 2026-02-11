@@ -74,7 +74,12 @@ ui <- page_sidebar( ###########################################################
               card(
                 card_header("Age Distribution"),
                 plotOutput("age_hist")
+              ),
+              card(
+                card_header("Age Distribution"),
+                plotOutput("age_hist_2")
               )
+              
               
     ),
     
@@ -129,11 +134,13 @@ server <- function(input, output, session) { ##################################
   })
 
   output$age_hist <- renderPlot({
-    req(nrow(filtered_data()) >= 2)
+    req(nrow(filtered_data()) >= 2) # prevents the plot from crashing when 
+    # filters produce too few rows  req() silently stops rendering when its 
+    # condition is not met.
     ggplot(filtered_data(), aes(x = AGE, fill = DIED)) +
-      geom_density(alpha = 0.5) +
+      geom_density(alpha = 0.5) + # shows a smooth curve of the distribution, making it easy to compare shapes
       labs(x = "Age", y = "Density", fill = "DIED") +
-      facet_wrap(~ SEX) +
+      facet_wrap(~ SEX) + # creates separate panels for each sex.
       theme_minimal() +
       theme(
         axis.title = element_text(size = 16),
@@ -141,6 +148,21 @@ server <- function(input, output, session) { ##################################
       )
   })
   
+  
+  output$age_hist_2 <- renderPlot({
+    req(nrow(filtered_data()) >= 2) # prevents the plot from crashing when 
+    # filters produce too few rows  req() silently stops rendering when its 
+    # condition is not met.
+    ggplot(filtered_data(), aes(x = AGE, fill = DIED)) +
+      geom_density(alpha = 0.5) + # shows a smooth curve of the distribution, making it easy to compare shapes
+      labs(x = "Age", y = "Density", fill = "SEX") +
+     # facet_wrap(~ SEX) + # creates separate panels for each sex.
+      theme_minimal() +
+      theme(
+        axis.title = element_text(size = 16),
+        axis.text = element_text(size = 14)
+      )
+  })
   
 } # End of server function
 
