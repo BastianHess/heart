@@ -8,6 +8,7 @@ library(ggplot2)
 library(plotly)
 
 source("R/helpers.R")
+source("R/mod_download_plot.R")
 
 heart <- readRDS("data/heart.rds")
 
@@ -87,7 +88,8 @@ ui <- page_sidebar( ###########################################################
               ), # end of layout-column wrap
               card(
                 card_header("Age Distribution"),
-                plotOutput("age_hist")
+                plotOutput("age_hist"),
+                mod_download_plot_ui("dl_age", label = "Download")  # this is the new downloadbutton
               ),
               card(
                 card_header("Age Distribution"),
@@ -164,19 +166,39 @@ server <- function(input, output, session) { ##################################
     paste0(round(100 * sum(d$DIED == "Died") / nrow(d), 1), "%")
   })
 
-  output$age_hist <- renderPlot({
-    req(nrow(filtered_data()) >= 2) # prevents the plot from crashing when 
-    # filters produce too few rows  req() silently stops rendering when its 
-    # condition is not met.
+  # split this up into two parts:
+  # output$age_hist <- renderPlot({
+  #   req(nrow(filtered_data()) >= 2) # prevents the plot from crashing when 
+  #   # filters produce too few rows  req() silently stops rendering when its 
+  #   # condition is not met.
+  #   ggplot(filtered_data(), aes(x = AGE, fill = DIED)) +
+  #     geom_density(alpha = 0.5) + # shows a smooth curve of the distribution, making it easy to compare shapes
+  #     labs(x = "Age", y = "Density", fill = "DIED") +
+  #     facet_wrap(~ SEX) + # creates separate panels for each sex.
+  #     theme_minimal() +
+  #     theme(
+  #       axis.title = element_text(size = 16),
+  #       axis.text = element_text(size = 14)
+  #     )
+  # })
+  
+  # Create the age plot as a reactive (reusable)
+  age_plot <- reactive({
+    req(nrow(filtered_data()) >= 2)
     ggplot(filtered_data(), aes(x = AGE, fill = DIED)) +
-      geom_density(alpha = 0.5) + # shows a smooth curve of the distribution, making it easy to compare shapes
+      geom_density(alpha = 0.5) +
       labs(x = "Age", y = "Density", fill = "DIED") +
-      facet_wrap(~ SEX) + # creates separate panels for each sex.
+      facet_wrap(~ SEX) +
       theme_minimal() +
       theme(
         axis.title = element_text(size = 16),
         axis.text = element_text(size = 14)
       )
+  })
+  
+  # Display the plot
+  output$age_hist <- renderPlot({
+    age_plot()
   })
   
   
