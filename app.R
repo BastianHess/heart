@@ -5,6 +5,7 @@ library(shiny)
 library(bslib)
 library(DT) 
 library(ggplot2)
+library(plotly)
 
 heart <- readRDS("data/heart.rds")
 
@@ -84,8 +85,12 @@ ui <- page_sidebar( ###########################################################
     ),
     
     
-    nav_panel("Explore", "Explore content coming soon..."),
-    # nav_panel("Data", "Data content coming soon...")
+    nav_panel("Explore", 
+              plotlyOutput("scatter_plot")),
+   
+    
+    
+     # nav_panel("Data", "Data content coming soon...")
     nav_panel("Data", DT::dataTableOutput("data_table"))
     
   )
@@ -163,6 +168,23 @@ server <- function(input, output, session) { ##################################
         axis.text = element_text(size = 14)
       )
   })
+  
+  
+  output$scatter_plot <- renderPlotly({
+    df <- filtered_data()
+    req(nrow(df) >= 1)
+    if(nrow(df) > 1000) {
+      df <- df[sample(nrow(df), 1000), ]
+    }
+    p <- ggplot(df, aes(x = AGE, y = LOS, color = SEX)) +
+      geom_point(alpha = 0.3) +
+      labs(x = "Age", y = "Length of Stay (days)", color = "Sex") +
+      geom_smooth(method = "lm", se = FALSE) +
+      theme_minimal()
+    ggplotly(p)
+  })
+  
+  
   
 } # End of server function
 
