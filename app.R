@@ -176,6 +176,8 @@ server <- function(input, output, session) { ##################################
     if(nrow(df) > 1000) {
       df <- df[sample(nrow(df), 1000), ]
     }
+ #    browser()  #  to stop and check/look at things
+                 #  call: summary(df) and  write.csv(df, "temp.csv")
     p <- ggplot(df, aes(x = AGE, y = LOS, color = SEX)) +
       geom_point(alpha = 0.3) +
       labs(x = "Age", y = "Length of Stay (days)", color = "Sex") +

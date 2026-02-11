@@ -1,0 +1,1001 @@
+"","ID","DIAGNOSIS","SEX","DRG","DIED","CHARGES","LOS","AGE"
+"9969",9969,"41091","Male","Died","Died",1696,1,55
+"4686",4686,"41041","Male","No Complications","Survived",5406,3,77
+"8617",8617,"41071","Female","Complications","Survived",14384,15,84
+"5341",5341,"41011","Female","Died","Died",9489,7,65
+"567",567,"41071","Male","No Complications","Survived",7398.65,8,50
+"1746",1746,"41071","Male","Complications","Survived",6056.92,6,90
+"12707",12707,"41091","Female","No Complications","Survived",12500,8,81
+"4382",4382,"41041","Male","No Complications","Survived",21370,9,64
+"5527",5527,"41011","Male","Complications","Survived",10931,8,64
+"4619",4619,"41011","Male","No Complications","Survived",11818.21,2,61
+"2358",2358,"41091","Male","Complications","Survived",3426,7,84
+"11630",11630,"41071","Female","No Complications","Survived",8997,6,83
+"3702",3702,"41011","Male","No Complications","Survived",4468.5,3,59
+"2882",2882,"41041","Male","No Complications","Survived",3118.06,1,70
+"9571",9571,"41091","Male","Complications","Survived",13445,6,57
+"7141",7141,"41041","Male","Complications","Survived",11973.6,9,37
+"6717",6717,"41091","Female","Complications","Survived",9192.65,9,83
+"3410",3410,"41041","Male","No Complications","Survived",1245.9,2,57
+"2645",2645,"41021","Male","Complications","Survived",7986.62,6,48
+"8908",8908,"41091","Male","Complications","Survived",NA,8,70
+"12526",12526,"41011","Female","No Complications","Survived",9986.26,9,89
+"7394",7394,"41011","Male","No Complications","Survived",NA,1,42
+"11128",11128,"41041","Male","No Complications","Survived",15201.4,8,44
+"10461",10461,"41071","Female","No Complications","Survived",10452,11,67
+"10734",10734,"41071","Female","No Complications","Survived",10043,7,71
+"7935",7935,"41011","Male","Complications","Survived",6429.95,5,78
+"10962",10962,"41071","Male","No Complications","Survived",17456.16,8,71
+"5326",5326,"41041","Male","Complications","Survived",8182.77,8,61
+"8594",8594,"41011","Male","No Complications","Survived",9073,5,36
+"6651",6651,"41091","Male","No Complications","Survived",9229.1,7,75
+"2543",2543,"41091","Female","Complications","Survived",6555.45,9,93
+"6911",6911,"41071","Male","Complications","Survived",NA,2,54
+"8710",8710,"41081","Female","No Complications","Survived",10220,7,80
+"8087",8087,"41091","Female","Complications","Survived",9180,6,84
+"5854",5854,"41091","Male","Complications","Survived",9851.09,10,77
+"9706",9706,"41041","Male","Complications","Survived",13338,11,64
+"1537",1537,"41071","Male","No Complications","Survived",3417.2,10,85
+"11930",11930,"41091","Male","No Complications","Survived",NA,15,80
+"4485",4485,"41041","Male","No Complications","Survived",9409,8,72
+"4081",4081,"41091","Male","No Complications","Survived",5255,6,72
+"4837",4837,"41091","Female","Complications","Survived",12481.37,12,73
+"9765",9765,"41011","Male","Died","Died",17722,8,86
+"1333",1333,"41091","Male","Complications","Survived",9960.33,10,71
+"5518",5518,"41011","Female","Complications","Survived",8754,12,86
+"10294",10294,"41091","Female","Complications","Survived",12981,5,65
+"1900",1900,"41041","Male","No Complications","Survived",2473.03,1,47
+"12299",12299,"41041","Female","No Complications","Survived",10756,9,65
+"5465",5465,"41071","Female","Complications","Survived",4939.43,6,83
+"2852",2852,"41041","Male","No Complications","Survived",9263.25,5,61
+"7767",7767,"41001","Female","Complications","Survived",NA,12,76
+"3403",3403,"41031","Male","No Complications","Survived",6045,8,47
+"9948",9948,"41011","Male","No Complications","Survived",2780,2,61
+"10024",10024,"41041","Male","No Complications","Survived",4050,2,37
+"7272",7272,"41091","Male","No Complications","Survived",11098.6,9,56
+"5696",5696,"41041","Male","Complications","Survived",13461.92,11,73
+"9766",9766,"41041","Female","Complications","Survived",16264,15,67
+"7370",7370,"41091","Male","Complications","Survived",11845,11,73
+"9552",9552,"41041","Female","No Complications","Survived",39065,23,87
+"7436",7436,"41041","Male","No Complications","Survived",7397,9,69
+"8883",8883,"41071","Male","No Complications","Survived",NA,1,68
+"3741",3741,"41071","Male","No Complications","Survived",NA,7,56
+"10733",10733,"41031","Male","Complications","Survived",8128,2,59
+"6296",6296,"41041","Female","No Complications","Survived",15084,7,66
+"12034",12034,"41091","Female","No Complications","Survived",5961,4,53
+"8702",8702,"41081","Male","No Complications","Survived",26280,18,46
+"10926",10926,"41071","Male","No Complications","Survived",23175,17,70
+"4002",4002,"41091","Female","No Complications","Survived",7488,10,81
+"8180",8180,"41091","Female","Complications","Survived",18414,13,82
+"2925",2925,"41011","Male","Complications","Survived",20112,35,77
+"12255",12255,"41011","Female","Complications","Survived",26780,18,76
+"5918",5918,"41091","Male","No Complications","Survived",7797.96,9,59
+"8368",8368,"41041","Male","Complications","Survived",26300,22,65
+"7013",7013,"41071","Male","No Complications","Survived",3401.5,3,56
+"10564",10564,"41041","Female","No Complications","Survived",15479.78,8,68
+"4544",4544,"41041","Male","No Complications","Survived",6772.5,7,53
+"10561",10561,"41011","Male","No Complications","Survived",16494.64,8,63
+"1893",1893,"41091","Female","Complications","Survived",13896.72,20,85
+"6749",6749,"41011","Male","No Complications","Survived",3954.95,2,65
+"5734",5734,"41041","Male","No Complications","Survived",11302.95,7,74
+"8764",8764,"41041","Male","No Complications","Survived",25833,20,68
+"7107",7107,"41091","Male","Complications","Survived",6650,4,38
+"7237",7237,"41071","Male","Complications","Survived",7997.75,7,80
+"152",152,"41011","Male","No Complications","Survived",6741,5,78
+"3052",3052,"41091","Male","Complications","Survived",1968,1,50
+"11942",11942,"41091","Female","Died","Died",NA,13,57
+"4980",4980,"41091","Male","Complications","Survived",12823.03,10,49
+"10498",10498,"41091","Female","Died","Died",11510.25,2,78
+"5232",5232,"41081","Male","Complications","Survived",4835.25,5,67
+"3491",3491,"41091","Male","Complications","Survived",11643.15,11,73
+"682",682,"41091","Male","No Complications","Survived",6007.78,6,30
+"12221",12221,"41071","Male","Complications","Survived",22068,24,57
+"1555",1555,"41001","Male","Died","Died",1270.4,1,83
+"10918",10918,"41071","Male","No Complications","Survived",4572.59,3,78
+"12043",12043,"41011","Female","Complications","Survived",6451.5,2,75
+"2878",2878,"41091","Female","Complications","Survived",16473.1,22,80
+"4056",4056,"41091","Male","Complications","Survived",12588,7,66
+"3015",3015,"41071","Female","Complications","Survived",4898,7,89
+"10142",10142,"41011","Male","Complications","Survived",22288,12,68
+"11723",11723,"41091","Male","No Complications","Survived",12609.4,7,72
+"2371",2371,"41091","Female","No Complications","Survived",4833.91,4,66
+"2929",2929,"41041","Female","No Complications","Survived",6376,8,57
+"2150",2150,"41091","Female","Complications","Survived",7159.34,5,51
+"12326",12326,"41011","Male","No Complications","Survived",12915,8,51
+"11056",11056,"41001","Female","No Complications","Survived",6583.34,5,59
+"7557",7557,"41081","Male","Complications","Survived",18910.69,14,73
+"271",271,"41091","Female","Died","Died",9282.4,7,90
+"12393",12393,"41041","Male","No Complications","Survived",14303,6,64
+"9560",9560,"41011","Female","No Complications","Survived",15254,8,58
+"5408",5408,"41011","Female","No Complications","Survived",8914,9,75
+"3443",3443,"41001","Male","Complications","Survived",16294.5,15,44
+"616",616,"41041","Male","No Complications","Survived",11692.33,19,72
+"11651",11651,"41071","Male","Complications","Survived",12398,8,71
+"3322",3322,"41041","Female","No Complications","Survived",6156,5,83
+"886",886,"41021","Male","No Complications","Survived",NA,14,56
+"11172",11172,"41091","Female","No Complications","Survived",7609.2,5,70
+"2802",2802,"41091","Male","No Complications","Survived",NA,12,51
+"5930",5930,"41091","Male","No Complications","Survived",3078.68,2,86
+"5273",5273,"41091","Female","No Complications","Survived",6864.92,8,87
+"762",762,"41091","Male","No Complications","Survived",NA,15,77
+"2532",2532,"41041","Male","Complications","Survived",12926.85,16,74
+"12204",12204,"41081","Male","Complications","Survived",9356,9,88
+"5209",5209,"41091","Female","Complications","Survived",3827.25,10,74
+"9026",9026,"41091","Male","No Complications","Survived",13845,8,71
+"11801",11801,"41081","Female","No Complications","Survived",14531.54,11,73
+"1242",1242,"41091","Female","No Complications","Survived",NA,13,73
+"5750",5750,"41041","Female","No Complications","Survived",19983.4,20,78
+"35",35,"41071","Female","No Complications","Survived",2441.45,5,73
+"7997",7997,"41041","Male","No Complications","Survived",4200,3,61
+"8052",8052,"41091","Female","Died","Died",1410,1,71
+"3497",3497,"41071","Male","No Complications","Survived",4768.05,4,47
+"6790",6790,"41011","Female","No Complications","Survived",3195.35,7,47
+"3671",3671,"41041","Male","No Complications","Survived",5424.05,5,63
+"4251",4251,"41091","Male","Died","Died",8576,2,52
+"3653",3653,"41031","Female","Complications","Survived",1882.35,3,85
+"1952",1952,"41091","Female","Complications","Survived",5319.86,8,91
+"1092",1092,"41091","Female","Complications","Survived",4966.17,8,63
+"3655",3655,"41011","Female","No Complications","Survived",5722.75,4,80
+"2732",2732,"41071","Female","Complications","Survived",11461.57,16,84
+"10341",10341,"41041","Male","No Complications","Survived",16136,8,42
+"10308",10308,"41091","Male","Complications","Survived",13214,6,55
+"9752",9752,"41071","Male","Complications","Survived",15716,11,30
+"4107",4107,"41091","Male","Complications","Survived",14975,8,63
+"5080",5080,"41091","Female","Complications","Survived",4469,8,90
+"863",863,"41091","Male","No Complications","Survived",17181,11,55
+"10102",10102,"41071","Male","Complications","Survived",15083,9,75
+"11960",11960,"41091","Male","Complications","Survived",NA,5,56
+"12397",12397,"41071","Male","Complications","Survived",14996,14,68
+"8768",8768,"41071","Male","No Complications","Survived",15924,7,51
+"544",544,"41091","Female","Complications","Survived",5180.22,6,73
+"6358",6358,"41091","Male","No Complications","Survived",12700,4,45
+"7312",7312,"41091","Male","No Complications","Survived",9727.2,7,40
+"11305",11305,"41091","Male","Died","Died",10699,4,48
+"5612",5612,"41071","Male","No Complications","Survived",8324.07,10,70
+"9460",9460,"41041","Female","Complications","Survived",24923,11,70
+"2733",2733,"41071","Male","Complications","Survived",17489.12,13,77
+"9267",9267,"41001","Female","No Complications","Survived",28900,17,69
+"8865",8865,"41041","Female","No Complications","Survived",NA,4,68
+"11396",11396,"41091","Male","Died","Died",11951.76,8,82
+"3962",3962,"41041","Female","Complications","Survived",11593,7,73
+"7701",7701,"41011","Female","No Complications","Survived",10445.2,1,57
+"8519",8519,"41011","Female","Complications","Survived",18641,13,54
+"3367",3367,"41091","Male","No Complications","Survived",4377,4,74
+"2149",2149,"41011","Female","No Complications","Survived",6941,8,78
+"5840",5840,"41091","Male","Complications","Survived",8005.65,8,53
+"12418",12418,"41071","Male","Complications","Survived",10749,9,80
+"9015",9015,"41041","Male","Died","Died",20778,28,77
+"3968",3968,"41051","Female","No Complications","Survived",4557,5,60
+"7171",7171,"41041","Female","No Complications","Survived",3858.85,4,60
+"3304",3304,"41011","Female","No Complications","Survived",7672,9,61
+"12168",12168,"41041","Male","Complications","Survived",22303.75,10,82
+"8805",8805,"41091","Male","Died","Died",NA,3,79
+"2619",2619,"41091","Female","Died","Died",3289,2,79
+"11529",11529,"41091","Male","No Complications","Survived",14763,11,62
+"2609",2609,"41091","Male","No Complications","Survived",5561,6,41
+"4800",4800,"41091","Female","Complications","Survived",6743.49,10,71
+"12591",12591,"41051","Female","Died","Died",2290,1,85
+"7296",7296,"41091","Male","No Complications","Survived",4063.5,2,37
+"6815",6815,"41041","Female","No Complications","Survived",5212.32,8,67
+"1865",1865,"41071","Male","No Complications","Survived",2361.27,3,68
+"11870",11870,"41091","Male","No Complications","Survived",5648.9,4,60
+"9913",9913,"41071","Male","No Complications","Survived",1887,1,36
+"8418",8418,"41091","Female","Complications","Survived",9229,8,72
+"10412",10412,"41011","Male","No Complications","Survived",12963,5,57
+"2672",2672,"41091","Male","No Complications","Survived",7076,7,61
+"10911",10911,"41091","Male","Complications","Survived",14748,11,62
+"9322",9322,"41071","Male","Complications","Survived",19552,8,50
+"9590",9590,"41001","Male","Complications","Survived",33474,15,54
+"12619",12619,"41041","Female","No Complications","Survived",9396.4,3,50
+"7517",7517,"41091","Female","Died","Died",6410,5,85
+"8762",8762,"41011","Male","No Complications","Survived",5648,2,59
+"7240",7240,"41041","Female","Complications","Survived",6169.6,6,54
+"782",782,"41091","Male","Died","Died",1686,1,47
+"1929",1929,"41091","Female","Complications","Survived",6063.39,8,56
+"4059",4059,"41071","Male","No Complications","Survived",8155,6,50
+"4757",4757,"41011","Male","No Complications","Survived",9303.84,8,75
+"2245",2245,"41051","Male","Died","Died",8389,10,81
+"1723",1723,"41071","Male","No Complications","Survived",19389.81,19,72
+"1583",1583,"41031","Male","Complications","Survived",14676.92,6,61
+"6629",6629,"41011","Female","Complications","Survived",8218.85,6,38
+"10291",10291,"41091","Male","Died","Died",1636,1,92
+"11600",11600,"41041","Male","Complications","Survived",10231.02,8,47
+"9591",9591,"41011","Female","Complications","Survived",19566,6,75
+"10505",10505,"41011","Male","Complications","Survived",NA,4,56
+"5979",5979,"41091","Female","Complications","Survived",NA,5,71
+"8221",8221,"41091","Female","Complications","Survived",27076,10,69
+"8223",8223,"41071","Female","No Complications","Survived",23426,10,69
+"4416",4416,"41091","Male","No Complications","Survived",4231,4,63
+"4284",4284,"41011","Male","No Complications","Survived",5526.64,4,55
+"10555",10555,"41091","Male","No Complications","Survived",3293.3,3,81
+"10154",10154,"41071","Male","Complications","Survived",39808,25,67
+"4330",4330,"41011","Female","No Complications","Survived",6727,9,79
+"12492",12492,"41021","Male","Complications","Survived",10652.28,8,65
+"3708",3708,"41041","Male","No Complications","Survived",8465,6,62
+"2799",2799,"41041","Female","Complications","Survived",10693.55,9,57
+"10236",10236,"41091","Female","Complications","Survived",11760,8,75
+"9537",9537,"41091","Male","No Complications","Survived",14777,9,48
+"5773",5773,"41041","Male","No Complications","Survived",8674.3,9,66
+"11877",11877,"41081","Male","Died","Died",3977.7,4,82
+"11798",11798,"41081","Male","Complications","Survived",NA,9,69
+"12325",12325,"41031","Male","No Complications","Survived",13454,10,38
+"1820",1820,"41071","Male","No Complications","Survived",9798,7,44
+"2678",2678,"41001","Male","Died","Died",4412.89,2,52
+"940",940,"41091","Male","Complications","Survived",5385,3,57
+"4402",4402,"41091","Male","No Complications","Survived",6833,13,73
+"7984",7984,"41031","Male","No Complications","Survived",4200,3,45
+"8447",8447,"41091","Male","No Complications","Survived",17545,11,92
+"7707",7707,"41011","Male","Complications","Survived",12001.05,9,64
+"9698",9698,"41011","Female","Complications","Survived",36246,17,55
+"7102",7102,"41081","Male","Complications","Survived",NA,6,81
+"6929",6929,"41011","Male","No Complications","Survived",12165.68,8,51
+"11992",11992,"41091","Female","Complications","Survived",8638,7,78
+"10383",10383,"41011","Male","No Complications","Survived",4009,1,65
+"11860",11860,"41091","Female","Complications","Survived",11984,10,80
+"3732",3732,"41011","Male","No Complications","Survived",NA,10,62
+"4500",4500,"41011","Male","No Complications","Survived",4513,1,58
+"5949",5949,"41091","Male","No Complications","Survived",6177.88,9,54
+"3218",3218,"41041","Male","Complications","Survived",7934,4,45
+"10903",10903,"41041","Male","Complications","Survived",7710.2,2,47
+"8627",8627,"41091","Female","No Complications","Survived",13784,11,57
+"12230",12230,"41071","Male","Complications","Survived",9663,7,62
+"5467",5467,"41021","Male","No Complications","Survived",5826.28,7,44
+"7071",7071,"41091","Male","No Complications","Survived",2036.45,1,65
+"5498",5498,"41091","Female","Died","Died",2200,1,77
+"4016",4016,"41091","Male","Complications","Survived",6231,8,85
+"2194",2194,"41041","Male","No Complications","Survived",6538.29,5,48
+"10689",10689,"41091","Male","Complications","Survived",2273.4,1,52
+"9697",9697,"41011","Female","Complications","Survived",21147,14,73
+"6420",6420,"41091","Male","No Complications","Survived",NA,2,52
+"4634",4634,"41041","Male","No Complications","Survived",1935,3,44
+"12009",12009,"41091","Male","Complications","Survived",9997,9,32
+"11565",11565,"41011","Male","No Complications","Survived",3994,1,54
+"6502",6502,"41091","Male","Complications","Survived",1419.95,1,45
+"11286",11286,"41091","Male","No Complications","Survived",6798,5,78
+"12271",12271,"41071","Male","No Complications","Survived",8248,6,60
+"5282",5282,"41011","Male","No Complications","Survived",15721.01,6,80
+"8976",8976,"41091","Female","Complications","Survived",9911,7,80
+"9294",9294,"41071","Female","Complications","Survived",16315.28,16,90
+"4475",4475,"41041","Male","Complications","Survived",3346,1,57
+"4278",4278,"41071","Female","Complications","Survived",17651,13,67
+"5864",5864,"41091","Male","Complications","Survived",6793.03,6,59
+"10633",10633,"41091","Male","Complications","Survived",15992.92,12,44
+"3714",3714,"41091","Male","Complications","Survived",10202.2,9,68
+"4949",4949,"41091","Male","No Complications","Survived",10407,12,67
+"659",659,"41001","Male","Died","Died",1520.73,1,76
+"5500",5500,"41091","Female","Died","Died",3006,1,89
+"1717",1717,"41071","Male","No Complications","Survived",9837,7,55
+"11523",11523,"41011","Male","Died","Died",12103,5,81
+"8816",8816,"41031","Male","No Complications","Survived",12210,8,74
+"10180",10180,"41091","Male","Died","Died",33368.5,37,81
+"2614",2614,"41091","Male","No Complications","Survived",2169,2,68
+"12073",12073,"41091","Female","Complications","Survived",12305,13,76
+"3797",3797,"41071","Male","No Complications","Survived",10252.13,9,52
+"2738",2738,"41091","Male","Complications","Survived",9099.22,10,55
+"12408",12408,"41001","Female","No Complications","Survived",20990,14,80
+"8050",8050,"41091","Female","Complications","Survived",8460,6,78
+"1546",1546,"41011","Male","Died","Died",3879.9,11,84
+"7185",7185,"41041","Female","No Complications","Survived",9805.25,9,52
+"2402",2402,"41091","Female","Complications","Survived",7429.87,9,71
+"9078",9078,"41091","Female","Died","Died",17365,10,62
+"7729",7729,"41041","Female","Complications","Survived",NA,5,85
+"11802",11802,"41081","Female","Complications","Survived",NA,6,70
+"9035",9035,"41091","Female","No Complications","Survived",NA,7,68
+"11262",11262,"41091","Female","Died","Died",4877.7,1,72
+"990",990,"41001","Male","No Complications","Survived",9464.77,11,60
+"2669",2669,"41091","Male","No Complications","Survived",9337.45,7,82
+"11182",11182,"41011","Female","Complications","Survived",7820.3,6,59
+"5512",5512,"41091","Male","No Complications","Survived",8628,7,50
+"9564",9564,"41081","Male","No Complications","Survived",17739,11,79
+"4792",4792,"41091","Male","No Complications","Survived",7130.28,7,50
+"4186",4186,"41041","Female","Complications","Survived",26947.83,19,69
+"6960",6960,"41081","Female","Died","Died",5377.92,4,83
+"984",984,"41091","Male","No Complications","Survived",20725,15,65
+"7246",7246,"41071","Female","Complications","Survived",5093,3,83
+"11562",11562,"41071","Female","No Complications","Survived",8526,5,73
+"775",775,"41091","Male","No Complications","Survived",6200,9,75
+"1056",1056,"41091","Female","No Complications","Survived",4924.48,5,63
+"5312",5312,"41011","Male","No Complications","Survived",19868.91,8,49
+"4781",4781,"41041","Male","No Complications","Survived",12591.96,12,75
+"10675",10675,"41091","Female","Complications","Survived",15672.9,14,88
+"11167",11167,"41041","Male","No Complications","Survived",6609.65,8,75
+"938",938,"41041","Male","Died","Died",14430,19,94
+"10630",10630,"41091","Male","No Complications","Survived",7351,9,57
+"4447",4447,"41091","Male","No Complications","Survived",NA,4,55
+"12075",12075,"41041","Female","Complications","Survived",15312.5,15,84
+"10974",10974,"41071","Male","No Complications","Survived",12489.93,11,68
+"585",585,"41091","Male","Complications","Survived",5681.24,7,78
+"897",897,"41011","Male","Complications","Survived",20620,12,65
+"7305",7305,"41091","Male","Complications","Survived",22213.7,8,37
+"9895",9895,"41011","Female","No Complications","Survived",8755,2,73
+"6488",6488,"41091","Female","No Complications","Survived",9202.83,4,52
+"9563",9563,"41011","Male","No Complications","Survived",13369,7,75
+"1282",1282,"41011","Female","Complications","Survived",4737,6,63
+"5076",5076,"41091","Male","Complications","Survived",3723,5,72
+"9543",9543,"41071","Female","Complications","Survived",11698,6,59
+"652",652,"41091","Female","Complications","Survived",12285.78,10,62
+"9735",9735,"41071","Male","No Complications","Survived",9933,7,61
+"7918",7918,"41041","Female","No Complications","Survived",12668.45,6,46
+"11938",11938,"41091","Female","Died","Died",NA,19,84
+"7778",7778,"41041","Female","No Complications","Survived",NA,14,72
+"6579",6579,"41021","Female","Complications","Survived",10874.9,10,89
+"8716",8716,"41081","Female","Died","Died",1570,1,73
+"2398",2398,"41091","Male","Complications","Survived",7023.2,6,69
+"8779",8779,"41071","Female","No Complications","Survived",13905,9,64
+"6791",6791,"41041","Female","No Complications","Survived",6594.16,14,67
+"4925",4925,"41091","Male","No Complications","Survived",6691,9,84
+"1756",1756,"41041","Male","Complications","Survived",29881.85,17,67
+"2831",2831,"41091","Female","No Complications","Survived",NA,6,66
+"2049",2049,"41011","Male","No Complications","Survived",3897.8,4,66
+"10980",10980,"41071","Female","Complications","Survived",11676.47,9,76
+"4109",4109,"41091","Female","Complications","Survived",26832,23,58
+"7249",7249,"41011","Male","No Complications","Survived",8493.25,9,69
+"314",314,"41091","Female","Died","Died",NA,3,64
+"12585",12585,"41011","Male","Complications","Survived",5833.98,5,82
+"4266",4266,"41041","Female","No Complications","Survived",3343.85,1,74
+"10107",10107,"41091","Male","Complications","Survived",16696,12,50
+"2389",2389,"41091","Male","No Complications","Survived",2288.43,5,94
+"605",605,"41021","Male","No Complications","Survived",9697.01,9,59
+"7705",7705,"41011","Male","Complications","Survived",15788.24,13,83
+"3810",3810,"41071","Female","No Complications","Survived",8692.38,11,78
+"10576",10576,"41091","Female","Died","Died",8623.25,6,76
+"2229",2229,"41091","Male","No Complications","Survived",7072.9,8,77
+"1090",1090,"41091","Male","No Complications","Survived",6746.37,10,45
+"205",205,"41091","Female","No Complications","Survived",2592.95,6,50
+"592",592,"41091","Male","No Complications","Survived",6530.99,6,59
+"2372",2372,"41091","Male","No Complications","Survived",5523.45,8,54
+"11444",11444,"41011","Male","No Complications","Survived",3195.99,3,80
+"8701",8701,"41001","Male","No Complications","Survived",8045,5,66
+"10280",10280,"41091","Female","No Complications","Survived",13307,10,85
+"266",266,"41041","Male","No Complications","Survived",5737.3,7,52
+"8983",8983,"41091","Male","Complications","Survived",NA,9,73
+"11772",11772,"41091","Male","No Complications","Survived",7743.5,7,60
+"702",702,"41011","Male","No Complications","Survived",7010,7,66
+"6452",6452,"41081","Male","Complications","Survived",17504,14,82
+"2211",2211,"41091","Male","No Complications","Survived",6238.35,6,76
+"11378",11378,"41091","Male","Complications","Survived",2952.2,6,70
+"6404",6404,"41011","Male","Complications","Survived",11011,13,84
+"10112",10112,"41011","Male","Complications","Survived",17999,12,92
+"2578",2578,"41091","Male","No Complications","Survived",NA,6,34
+"9486",9486,"41071","Male","No Complications","Survived",11763,9,63
+"7344",7344,"41041","Female","No Complications","Survived",3529,2,48
+"2357",2357,"41041","Female","No Complications","Survived",10008.21,9,69
+"140",140,"41071","Male","No Complications","Survived",701.25,1,58
+"8419",8419,"41011","Male","No Complications","Survived",16151,12,61
+"1345",1345,"41041","Male","Complications","Survived",9748.68,11,51
+"4387",4387,"41071","Female","No Complications","Survived",4007,4,60
+"9709",9709,"41011","Male","Died","Died",41577,19,75
+"11715",11715,"41011","Male","No Complications","Survived",NA,11,82
+"7205",7205,"41011","Female","No Complications","Survived",7805.25,9,68
+"11944",11944,"41091","Female","No Complications","Survived",NA,8,81
+"800",800,"41011","Male","Complications","Survived",12226,13,71
+"12429",12429,"41011","Male","No Complications","Survived",12730.54,11,53
+"1025",1025,"41041","Male","Complications","Survived",7135.55,6,71
+"1275",1275,"41091","Male","No Complications","Survived",12445,1,58
+"12420",12420,"41041","Male","Complications","Survived",13718,7,65
+"6337",6337,"41011","Male","Complications","Survived",10196,9,78
+"3335",3335,"41041","Female","Complications","Survived",28262.5,19,71
+"12400",12400,"41001","Female","Complications","Survived",14949,11,72
+"1501",1501,"41011","Male","No Complications","Survived",10000,4,65
+"1351",1351,"41011","Female","No Complications","Survived",1296.15,1,77
+"7607",7607,"41071","Female","Complications","Survived",13806,14,82
+"5",5,"41091","Male","No Complications","Survived",1681,1,55
+"737",737,"41011","Male","Complications","Survived",NA,12,77
+"6538",6538,"41091","Female","Died","Died",10999.9,20,85
+"10065",10065,"41011","Male","No Complications","Survived",8838,6,58
+"7002",7002,"41001","Male","Complications","Survived",16916.04,15,85
+"2373",2373,"41041","Female","Complications","Survived",6668.98,9,51
+"8306",8306,"41041","Male","No Complications","Survived",9802,8,60
+"10471",10471,"41091","Female","Complications","Survived",31665,23,73
+"2969",2969,"41071","Female","Complications","Survived",7565,10,75
+"11549",11549,"41091","Male","No Complications","Survived",4155,3,71
+"7497",7497,"41091","Female","Complications","Survived",10625,12,65
+"11978",11978,"41041","Male","Complications","Survived",9789.5,9,57
+"3766",3766,"41041","Male","No Complications","Survived",11411.63,4,58
+"11799",11799,"41081","Male","No Complications","Survived",6431.97,9,72
+"4864",4864,"41041","Male","Complications","Survived",11845.07,8,53
+"12714",12714,"41071","Male","No Complications","Survived",3965,2,48
+"5195",5195,"41091","Male","No Complications","Survived",6669,11,83
+"1680",1680,"41031","Female","No Complications","Survived",7810,7,51
+"12520",12520,"41021","Female","No Complications","Survived",9787.5,9,52
+"10763",10763,"41071","Male","No Complications","Survived",16068,8,43
+"10061",10061,"41071","Female","Complications","Survived",11932,9,96
+"1532",1532,"41011","Male","Complications","Survived",2072.1,4,81
+"9795",9795,"41011","Female","Died","Died",3994,1,80
+"9629",9629,"41071","Male","Complications","Survived",31255,18,46
+"8545",8545,"41011","Female","Complications","Survived",21784,13,73
+"9102",9102,"41091","Male","No Complications","Survived",3743,1,62
+"10469",10469,"41091","Female","Complications","Survived",7176,7,85
+"5938",5938,"41091","Female","Died","Died",6432.03,1,89
+"7383",7383,"41091","Male","Complications","Survived",9249,9,72
+"3251",3251,"41091","Male","Complications","Survived",6826,4,59
+"5913",5913,"41091","Female","Complications","Survived",9102.82,6,57
+"12712",12712,"41091","Female","Complications","Survived",11913,11,88
+"5855",5855,"41091","Male","Complications","Survived",16909.48,10,52
+"9821",9821,"41071","Male","Complications","Survived",24887,16,80
+"12827",12827,"41041","Male","Complications","Survived",NA,6,53
+"7353",7353,"41011","Male","Died","Died",2861,2,85
+"12036",12036,"41091","Male","Complications","Survived",10608,8,59
+"10881",10881,"41071","Male","Complications","Survived",6199.8,12,79
+"4716",4716,"41011","Female","Died","Died",NA,1,89
+"11886",11886,"41081","Male","No Complications","Survived",5645.92,4,75
+"12386",12386,"41041","Male","No Complications","Survived",5785,1,55
+"1700",1700,"41041","Male","No Complications","Survived",NA,6,47
+"9617",9617,"41001","Male","No Complications","Survived",9017,6,80
+"11767",11767,"41011","Male","Complications","Survived",25431.46,7,47
+"6422",6422,"41081","Female","Complications","Survived",4889,2,49
+"8477",8477,"41071","Female","No Complications","Survived",8676,4,60
+"10068",10068,"41071","Female","Complications","Survived",11794,9,73
+"6264",6264,"41041","Male","Complications","Survived",7158,3,61
+"11329",11329,"41091","Male","No Complications","Survived",4126,3,52
+"10806",10806,"41011","Male","Complications","Survived",14853,9,71
+"9016",9016,"41091","Female","No Complications","Survived",5748,11,75
+"3348",3348,"41011","Female","Complications","Survived",NA,8,69
+"5974",5974,"41091","Female","Complications","Survived",11326.84,12,81
+"6278",6278,"41091","Male","Died","Died",1768.2,1,71
+"5839",5839,"41091","Female","No Complications","Survived",3469.76,3,79
+"8775",8775,"41071","Female","Complications","Survived",3225,2,72
+"4011",4011,"41041","Male","No Complications","Survived",8702,6,76
+"5718",5718,"41071","Male","No Complications","Survived",6563.6,4,48
+"10310",10310,"41091","Male","No Complications","Survived",6864,2,54
+"8798",8798,"41081","Female","Complications","Survived",17551,10,50
+"4689",4689,"41071","Male","No Complications","Survived",4887,2,48
+"8309",8309,"41091","Female","Complications","Survived",13146,10,60
+"875",875,"41091","Male","No Complications","Survived",15,2,34
+"1941",1941,"41091","Male","No Complications","Survived",4434.78,5,82
+"3954",3954,"41041","Female","Complications","Survived",10722,11,80
+"1074",1074,"41091","Male","Complications","Survived",13454.79,16,53
+"8357",8357,"41091","Female","No Complications","Survived",17100,14,82
+"7643",7643,"41021","Male","Complications","Survived",11346,10,49
+"3167",3167,"41041","Male","No Complications","Survived",2852.23,3,70
+"5330",5330,"41011","Male","Complications","Survived",4739.75,3,71
+"7836",7836,"41091","Female","No Complications","Survived",7125,9,60
+"7355",7355,"41011","Male","No Complications","Survived",6198,8,45
+"4133",4133,"41041","Female","No Complications","Survived",9030,6,84
+"5526",5526,"41091","Female","No Complications","Survived",4616,2,70
+"4988",4988,"41041","Male","No Complications","Survived",11437.8,4,58
+"4601",4601,"41071","Female","No Complications","Survived",3847.5,3,66
+"1652",1652,"41041","Female","No Complications","Survived",7779,9,81
+"1249",1249,"41091","Male","No Complications","Survived",8670.41,6,36
+"6297",6297,"41041","Male","No Complications","Survived",14605,6,70
+"6877",6877,"41041","Male","No Complications","Survived",10302.07,7,66
+"740",740,"41091","Male","No Complications","Survived",5085,6,65
+"1108",1108,"41041","Male","No Complications","Survived",5529.9,7,56
+"9861",9861,"41071","Male","No Complications","Survived",2312.84,2,42
+"6352",6352,"41001","Female","Complications","Survived",8202,8,57
+"4840",4840,"41041","Male","Complications","Survived",8938.13,8,42
+"8062",8062,"41091","Male","No Complications","Survived",14100,10,55
+"1376",1376,"41041","Female","Died","Died",NA,1,72
+"10744",10744,"41091","Female","Complications","Survived",8709.06,10,79
+"1334",1334,"41091","Female","Complications","Survived",8201.09,14,75
+"1598",1598,"41091","Male","No Complications","Survived",2739.2,2,54
+"11146",11146,"41091","Male","No Complications","Survived",3712.45,1,52
+"5530",5530,"41091","Male","No Complications","Survived",10935,8,68
+"10882",10882,"41091","Female","Complications","Survived",6522.35,11,83
+"11584",11584,"41041","Male","No Complications","Survived",4043.31,2,50
+"10775",10775,"41091","Male","Complications","Survived",21975,10,62
+"12717",12717,"41091","Male","Complications","Survived",39757,21,72
+"5364",5364,"41091","Male","Died","Died",2869.5,1,81
+"10796",10796,"41091","Male","Complications","Survived",16483,10,71
+"11966",11966,"41091","Female","Complications","Survived",NA,9,80
+"1708",1708,"41041","Male","Died","Died",31305.1,15,66
+"3663",3663,"41091","Female","No Complications","Survived",6695.45,5,50
+"4354",4354,"41071","Male","No Complications","Survived",5329,6,76
+"5595",5595,"41091","Male","No Complications","Survived",4770.15,4,57
+"4796",4796,"41041","Male","No Complications","Survived",7837.87,7,48
+"1990",1990,"41091","Female","Complications","Survived",12759.19,8,70
+"1322",1322,"41091","Male","No Complications","Survived",3015.54,5,62
+"7869",7869,"41011","Female","No Complications","Survived",6018.6,6,51
+"11306",11306,"41091","Female","No Complications","Survived",11897.8,10,79
+"4233",4233,"41041","Female","Died","Died",10659,4,76
+"6088",6088,"41041","Female","Complications","Survived",8169,6,55
+"11710",11710,"41011","Male","Died","Died",1973,1,71
+"5102",5102,"41091","Female","Complications","Survived",NA,8,60
+"5822",5822,"41071","Female","No Complications","Survived",3783.08,3,68
+"8014",8014,"41071","Female","No Complications","Survived",2800,2,56
+"6710",6710,"41091","Female","Complications","Survived",16704.2,16,92
+"8261",8261,"41011","Male","Complications","Survived",6060,4,61
+"11718",11718,"41011","Male","No Complications","Survived",NA,13,31
+"5395",5395,"41091","Male","Complications","Survived",10355.84,7,50
+"9057",9057,"41041","Male","No Complications","Survived",8115.64,10,61
+"540",540,"41041","Female","No Complications","Survived",6664.87,14,67
+"5687",5687,"41071","Male","No Complications","Survived",14445.35,14,57
+"358",358,"41041","Female","Complications","Survived",4694,5,75
+"710",710,"41091","Male","Complications","Survived",12719,9,86
+"12403",12403,"41001","Male","No Complications","Survived",1285,6,27
+"6777",6777,"41091","Male","Complications","Survived",8409.85,5,70
+"4868",4868,"41041","Male","Complications","Survived",11201.81,9,67
+"12324",12324,"41071","Female","No Complications","Survived",15908,13,59
+"8909",8909,"41091","Female","Complications","Survived",26377,19,84
+"9925",9925,"41091","Male","Complications","Survived",16454,6,45
+"4009",4009,"41091","Male","Complications","Survived",7465,6,70
+"4433",4433,"41091","Male","No Complications","Survived",7448,7,71
+"4832",4832,"41021","Female","Complications","Survived",6492.72,7,73
+"5389",5389,"41091","Female","Complications","Survived",12503.35,16,72
+"8961",8961,"41091","Male","No Complications","Survived",12479,7,55
+"10274",10274,"41091","Female","Complications","Survived",19513,8,78
+"4377",4377,"41041","Male","No Complications","Survived",4187,5,70
+"2277",2277,"41011","Male","Complications","Survived",8932.37,9,55
+"7056",7056,"41001","Male","Died","Died",23706.32,16,73
+"6863",6863,"41041","Female","No Complications","Survived",9497.2,10,67
+"1205",1205,"41041","Female","Complications","Survived",6240.41,8,86
+"7089",7089,"41091","Male","No Complications","Survived",8113.65,8,79
+"1735",1735,"41041","Male","No Complications","Survived",13731.55,9,45
+"10947",10947,"41011","Male","No Complications","Survived",6304.27,5,54
+"2744",2744,"41071","Female","Complications","Survived",4290.98,3,57
+"185",185,"41091","Female","No Complications","Survived",1696.4,8,69
+"8529",8529,"41011","Male","No Complications","Survived",7206,4,50
+"8500",8500,"41011","Female","No Complications","Survived",15868,8,60
+"1706",1706,"41071","Male","No Complications","Survived",6532.67,6,70
+"1654",1654,"41041","Male","Complications","Survived",13346,10,39
+"1272",1272,"41041","Male","Died","Died",12787,1,59
+"12103",12103,"41091","Male","Complications","Survived",11187.5,9,72
+"6633",6633,"41091","Female","Died","Died",1258.85,1,85
+"474",474,"41041","Male","No Complications","Survived",9652.68,11,48
+"138",138,"41091","Male","Died","Died",1582.25,1,98
+"11227",11227,"41041","Male","No Complications","Survived",16511.05,8,70
+"7218",7218,"41041","Male","Complications","Survived",6689.3,7,83
+"4777",4777,"41041","Male","Complications","Survived",7853.48,7,66
+"11142",11142,"41091","Female","No Complications","Survived",1488.8,1,45
+"9835",9835,"41091","Female","No Complications","Survived",25400,15,79
+"10395",10395,"41071","Male","Complications","Survived",17628,6,58
+"1716",1716,"41071","Male","No Complications","Survived",13044.77,12,68
+"6250",6250,"41011","Male","Died","Died",20039.75,7,38
+"3402",3402,"41031","Female","No Complications","Survived",10446.35,10,52
+"6571",6571,"41091","Female","Complications","Survived",25428.7,14,84
+"812",812,"41041","Male","Complications","Survived",16626,10,59
+"11606",11606,"41021","Female","Complications","Survived",15834,8,64
+"9643",9643,"41051","Male","No Complications","Survived",6305,4,58
+"668",668,"41011","Female","Died","Died",1141.14,1,73
+"11051",11051,"41091","Male","Complications","Survived",14715,11,62
+"10942",10942,"41091","Female","Complications","Survived",17468,8,71
+"3059",3059,"41091","Female","Complications","Survived",2629,1,58
+"9396",9396,"41071","Male","No Complications","Survived",4579,3,59
+"9848",9848,"41091","Male","Complications","Survived",18403.67,13,40
+"1099",1099,"41091","Female","No Complications","Survived",5847.92,10,79
+"3500",3500,"41011","Female","Complications","Survived",9393.75,12,78
+"12327",12327,"41051","Female","No Complications","Survived",18326,12,60
+"9951",9951,"41031","Male","No Complications","Survived",20850,15,60
+"10990",10990,"41071","Male","No Complications","Survived",2146.9,2,35
+"5257",5257,"41091","Female","Complications","Survived",15510.59,8,69
+"3326",3326,"41041","Female","Complications","Survived",13947.5,12,64
+"4737",4737,"41041","Male","No Complications","Survived",NA,6,80
+"7835",7835,"41091","Female","Complications","Survived",11405.45,14,79
+"6408",6408,"41071","Male","No Complications","Survived",8404,9,85
+"1874",1874,"41041","Male","No Complications","Survived",6713.65,4,64
+"12298",12298,"41071","Male","No Complications","Survived",9755,8,71
+"1487",1487,"41091","Female","Complications","Survived",30336,21,68
+"7721",7721,"41071","Female","Complications","Survived",NA,2,78
+"10227",10227,"41091","Male","No Complications","Survived",1470,1,53
+"417",417,"41001","Male","Complications","Survived",17217,11,62
+"8218",8218,"41071","Female","No Complications","Survived",5103,2,92
+"3742",3742,"41041","Female","Complications","Survived",NA,9,62
+"2809",2809,"41091","Male","No Complications","Survived",9289.59,9,63
+"2668",2668,"41071","Male","No Complications","Survived",1806.87,1,64
+"5283",5283,"41041","Female","Died","Died",11246.09,1,81
+"11153",11153,"41041","Female","Complications","Survived",8596,9,75
+"11129",11129,"41041","Male","Complications","Survived",11810.85,4,45
+"9325",9325,"41091","Female","Complications","Survived",28185,11,76
+"10212",10212,"41091","Female","No Complications","Survived",28350,18,68
+"4426",4426,"41011","Male","Complications","Survived",8831,9,67
+"11381",11381,"41041","Female","No Complications","Survived",6258.6,4,64
+"12143",12143,"41091","Male","No Complications","Survived",8504.5,6,76
+"8717",8717,"41081","Male","Died","Died",28260,18,74
+"10685",10685,"41091","Female","No Complications","Survived",8400.54,7,49
+"6104",6104,"41041","Male","Complications","Survived",6650,8,59
+"9253",9253,"41071","Male","No Complications","Survived",1645,1,52
+"214",214,"41091","Male","Complications","Survived",6181.5,6,58
+"7677",7677,"41091","Female","Complications","Survived",4363.75,6,69
+"6703",6703,"41091","Male","No Complications","Survived",7612.15,6,73
+"6747",6747,"41091","Female","Died","Died",1573.85,1,81
+"12577",12577,"41041","Female","Died","Died",4140.66,3,84
+"7500",7500,"41091","Male","No Complications","Survived",12018,7,77
+"11971",11971,"41071","Male","Died","Died",9257,6,77
+"6255",6255,"41041","Female","No Complications","Survived",8089.5,6,80
+"5683",5683,"41041","Male","Complications","Survived",9060.45,8,76
+"11428",11428,"41091","Male","Complications","Survived",9962.87,10,66
+"6902",6902,"41011","Male","No Complications","Survived",1729.09,2,75
+"10326",10326,"41091","Male","Complications","Survived",8774,3,64
+"10975",10975,"41041","Male","Complications","Survived",15722,9,62
+"3119",3119,"41091","Male","Complications","Survived",7403.11,7,61
+"12605",12605,"41071","Female","No Complications","Survived",12509.84,9,64
+"11337",11337,"41011","Male","Complications","Survived",6518,4,80
+"2788",2788,"41091","Male","Died","Died",17540.86,15,74
+"12024",12024,"41041","Female","No Complications","Survived",11282,7,70
+"1159",1159,"41091","Male","Complications","Survived",5361.74,7,51
+"1043",1043,"41091","Male","Complications","Survived",14873.31,14,79
+"405",405,"41091","Female","Died","Died",5194,1,65
+"3861",3861,"41041","Female","Complications","Survived",11304.25,10,77
+"2226",2226,"41091","Female","No Complications","Survived",19915.65,25,76
+"2078",2078,"41091","Female","No Complications","Survived",6313.39,11,86
+"10693",10693,"41091","Male","No Complications","Survived",18504.03,11,82
+"664",664,"41041","Male","No Complications","Survived",5729.59,7,64
+"716",716,"41071","Male","No Complications","Survived",1376,3,68
+"10655",10655,"41091","Female","Complications","Survived",13467.05,12,76
+"9426",9426,"41011","Female","Died","Died",4598,1,76
+"9838",9838,"41011","Female","No Complications","Survived",NA,15,67
+"8407",8407,"41041","Male","No Complications","Survived",6669,6,56
+"4608",4608,"41031","Male","No Complications","Survived",5049.06,1,66
+"2334",2334,"41091","Male","Complications","Survived",8939.91,5,60
+"7732",7732,"41011","Female","Died","Died",2768.64,1,58
+"1999",1999,"41091","Female","No Complications","Survived",10038.88,9,72
+"7057",7057,"41071","Female","Died","Died",46293.97,14,73
+"6069",6069,"41011","Female","Complications","Survived",11850,9,57
+"7667",7667,"41001","Male","No Complications","Survived",16160,6,49
+"6494",6494,"41091","Male","Complications","Survived",6373.82,9,80
+"10986",10986,"41041","Male","No Complications","Survived",9099.35,7,63
+"6453",6453,"41081","Male","Complications","Survived",11139,7,46
+"9788",9788,"41011","Female","Died","Died",39911,13,64
+"7901",7901,"41041","Male","No Complications","Survived",13817.8,13,93
+"8184",8184,"41091","Male","No Complications","Survived",5646,2,53
+"6085",6085,"41011","Male","No Complications","Survived",16546,15,58
+"11782",11782,"41041","Male","No Complications","Survived",7813.6,6,53
+"7960",7960,"41041","Male","Complications","Survived",28320,19,83
+"8167",8167,"41091","Female","Complications","Survived",22254,19,77
+"2054",2054,"41091","Female","No Complications","Survived",7437.91,10,63
+"4239",4239,"41041","Female","No Complications","Survived",16757,16,83
+"2454",2454,"41091","Male","No Complications","Survived",2352,1,66
+"1772",1772,"41001","Female","No Complications","Survived",11992.49,6,64
+"866",866,"41031","Male","No Complications","Survived",12033,7,60
+"6539",6539,"41091","Male","Complications","Survived",963.05,1,31
+"9740",9740,"41091","Male","Complications","Survived",28775,14,79
+"1733",1733,"41071","Male","No Complications","Survived",8443.39,6,49
+"7756",7756,"41001","Female","Died","Died",2747.39,1,73
+"11342",11342,"41041","Male","No Complications","Survived",10500,9,77
+"6730",6730,"41091","Male","No Complications","Survived",7710.65,6,59
+"4885",4885,"41091","Male","Complications","Survived",7121,11,71
+"4812",4812,"41011","Female","Died","Died",8518.43,2,80
+"134",134,"41041","Male","No Complications","Survived",NA,1,57
+"1835",1835,"41091","Male","Died","Died",5740,7,70
+"7338",7338,"41041","Female","Died","Died",2968,1,59
+"11407",11407,"41091","Male","No Complications","Survived",5379.53,6,77
+"9255",9255,"41081","Female","No Complications","Survived",23030,14,49
+"3457",3457,"41041","Female","Died","Died",9092.9,7,81
+"3123",3123,"41041","Male","Complications","Survived",6111.63,6,56
+"5638",5638,"41011","Male","Complications","Survived",8017.45,1,47
+"10786",10786,"41091","Female","No Complications","Survived",21924,8,74
+"12219",12219,"41001","Female","Complications","Survived",10644,10,91
+"12152",12152,"41091","Male","No Complications","Survived",5675.5,5,62
+"10028",10028,"41011","Male","Complications","Survived",14659,9,74
+"8394",8394,"41091","Male","Complications","Survived",7167,7,69
+"5523",5523,"41011","Male","Complications","Survived",12366,8,44
+"9994",9994,"41041","Female","Died","Died",4096,3,83
+"9142",9142,"41091","Male","No Complications","Survived",10781,8,76
+"1250",1250,"41091","Male","Complications","Survived",12632.94,6,69
+"12634",12634,"41071","Female","Complications","Survived",9681.38,7,63
+"7593",7593,"41051","Female","No Complications","Survived",5603,6,72
+"6447",6447,"41081","Male","Complications","Survived",24299,12,61
+"3670",3670,"41041","Male","No Complications","Survived",8750.05,7,44
+"19",19,"41041","Female","No Complications","Survived",8645.9,4,66
+"7993",7993,"41091","Male","Complications","Survived",22920,9,62
+"7821",7821,"41011","Female","Complications","Survived",21626.02,18,55
+"6925",6925,"41071","Female","Complications","Survived",6561.01,10,64
+"1383",1383,"41091","Male","Complications","Survived",21221.89,13,62
+"8610",8610,"41091","Female","Complications","Survived",23590,17,80
+"2600",2600,"41071","Male","No Complications","Survived",5024.27,6,54
+"2319",2319,"41041","Male","No Complications","Survived",8599,8,53
+"6909",6909,"41001","Male","No Complications","Survived",NA,10,64
+"11033",11033,"41071","Male","Complications","Survived",30649.62,19,69
+"1184",1184,"41091","Male","No Complications","Survived",8367.21,3,77
+"147",147,"41091","Male","Complications","Survived",9117,10,77
+"7924",7924,"41091","Male","Died","Died",1500.38,1,78
+"1379",1379,"41091","Male","Complications","Survived",4891.54,3,45
+"6478",6478,"41091","Female","No Complications","Survived",4979.82,7,84
+"1997",1997,"41011","Male","Complications","Survived",5395.88,4,72
+"1699",1699,"41091","Male","No Complications","Survived",7259,5,56
+"7874",7874,"41091","Female","No Complications","Survived",5487.35,6,79
+"1584",1584,"41041","Male","No Complications","Survived",5271.45,5,57
+"1812",1812,"41041","Male","No Complications","Survived",8806,7,78
+"5314",5314,"41091","Male","No Complications","Survived",4985.86,3,70
+"2470",2470,"41091","Male","No Complications","Survived",2003,2,56
+"6900",6900,"41011","Male","Complications","Survived",3604.21,8,75
+"974",974,"41091","Male","Complications","Survived",8980,11,62
+"4824",4824,"41041","Male","No Complications","Survived",10039.73,7,48
+"9767",9767,"41091","Male","No Complications","Survived",12888,9,46
+"3981",3981,"41041","Male","Complications","Survived",10547,5,69
+"33",33,"41041","Male","No Complications","Survived",7306.85,3,65
+"9011",9011,"41091","Female","No Complications","Survived",8452,10,58
+"11257",11257,"41091","Male","No Complications","Survived",9657.8,9,74
+"8420",8420,"41041","Male","Complications","Survived",NA,5,72
+"4662",4662,"41011","Male","No Complications","Survived",5917,4,45
+"1541",1541,"41071","Male","No Complications","Survived",1514.5,3,64
+"7808",7808,"41011","Male","Complications","Survived",8019,8,75
+"2375",2375,"41091","Male","No Complications","Survived",8490.97,12,80
+"3966",3966,"41011","Female","Died","Died",2503,2,90
+"5651",5651,"41091","Male","Died","Died",7922.7,1,61
+"6797",6797,"41011","Male","Died","Died",596.25,1,84
+"8904",8904,"41071","Female","No Complications","Survived",10528,7,63
+"10460",10460,"41011","Female","No Complications","Survived",9539,8,88
+"9950",9950,"41071","Male","Complications","Survived",30580,22,66
+"9316",9316,"41091","Female","Complications","Survived",4395,3,61
+"3848",3848,"41041","Male","No Complications","Survived",11706.9,8,55
+"2472",2472,"41091","Female","No Complications","Survived",5820,7,66
+"6346",6346,"41091","Female","No Complications","Survived",6198,7,70
+"5569",5569,"41091","Male","No Complications","Survived",14926.42,4,70
+"2305",2305,"41091","Male","Complications","Survived",2916.2,10,69
+"9731",9731,"41091","Male","No Complications","Survived",19904,11,77
+"5506",5506,"41091","Male","No Complications","Survived",5755,4,45
+"2952",2952,"41011","Female","Complications","Survived",9670,12,57
+"12745",12745,"41091","Male","No Complications","Survived",8601,7,69
+"6663",6663,"41091","Male","No Complications","Survived",7782.95,7,49
+"3525",3525,"41011","Female","No Complications","Survived",3314.5,2,69
+"4580",4580,"41011","Male","Complications","Survived",3722.08,2,52
+"1102",1102,"41091","Male","No Complications","Survived",6428.8,7,55
+"5103",5103,"41091","Male","No Complications","Survived",NA,6,54
+"7698",7698,"41071","Male","Died","Died",6344,2,75
+"10225",10225,"41091","Male","Died","Died",33810,23,66
+"7181",7181,"41041","Male","Complications","Survived",3058.75,3,61
+"590",590,"41091","Male","Complications","Survived",9617.36,10,80
+"12357",12357,"41001","Female","Complications","Survived",30914,20,68
+"6270",6270,"41011","Female","Complications","Survived",5835.35,6,83
+"10899",10899,"41091","Female","Complications","Survived",14566,10,66
+"12686",12686,"41091","Female","Complications","Survived",18185,13,92
+"11951",11951,"41091","Male","Complications","Survived",NA,9,78
+"10622",10622,"41091","Male","Complications","Survived",14145.58,13,71
+"1387",1387,"41041","Female","No Complications","Survived",12812.74,8,47
+"10366",10366,"41091","Female","Complications","Survived",3813,1,70
+"5045",5045,"41031","Male","Complications","Survived",4901.85,7,89
+"6727",6727,"41041","Male","Complications","Survived",11243.85,5,70
+"10217",10217,"41091","Male","No Complications","Survived",10290,7,55
+"4565",4565,"41001","Male","Complications","Survived",7286,6,49
+"9904",9904,"41091","Female","Complications","Survived",14753,8,85
+"2392",2392,"41091","Male","Died","Died",2002.28,1,72
+"532",532,"41071","Female","No Complications","Survived",5952.42,6,76
+"7588",7588,"41011","Male","Died","Died",NA,1,40
+"4765",4765,"41091","Male","Complications","Survived",8604.05,8,60
+"7504",7504,"41091","Male","Complications","Survived",9445,9,81
+"9879",9879,"41011","Female","Complications","Survived",25974,19,92
+"3698",3698,"41091","Male","Complications","Survived",9309.15,9,66
+"7198",7198,"41011","Male","Died","Died",4734.75,2,84
+"11955",11955,"41091","Male","No Complications","Survived",NA,5,45
+"2223",2223,"41091","Male","No Complications","Survived",8657.35,7,44
+"11503",11503,"41091","Male","No Complications","Survived",7613.89,5,64
+"9799",9799,"41071","Male","Complications","Survived",26091,16,64
+"4171",4171,"41071","Male","No Complications","Survived",15128,7,47
+"5644",5644,"41091","Male","No Complications","Survived",14517.47,4,63
+"4933",4933,"41001","Female","Complications","Survived",4635,5,78
+"11269",11269,"41091","Female","Complications","Survived",17040.2,12,73
+"7624",7624,"41091","Male","Complications","Survived",NA,1,46
+"5196",5196,"41091","Male","No Complications","Survived",1968.5,8,42
+"2850",2850,"41011","Female","Complications","Survived",18044.71,27,82
+"1134",1134,"41011","Male","Complications","Survived",6556.33,7,61
+"640",640,"41071","Female","Complications","Survived",5819.72,8,82
+"4572",4572,"41071","Male","No Complications","Survived",3089,2,69
+"10337",10337,"41011","Female","No Complications","Survived",7244,2,67
+"8104",8104,"41091","Male","No Complications","Survived",7650,5,71
+"3599",3599,"41011","Male","Died","Died",3924.15,1,72
+"3225",3225,"41091","Male","No Complications","Survived",4833,3,57
+"2192",2192,"41071","Female","No Complications","Survived",13164.67,19,90
+"299",299,"41091","Male","Complications","Survived",13678,21,82
+"6612",6612,"41041","Male","Complications","Survived",15168.2,6,60
+"4374",4374,"41011","Female","Died","Died",10530,8,81
+"2707",2707,"41071","Male","No Complications","Survived",10767.38,9,68
+"1037",1037,"41091","Female","No Complications","Survived",9314.24,7,67
+"4720",4720,"41041","Male","No Complications","Survived",14068,8,50
+"6383",6383,"41011","Female","Complications","Survived",14277,15,73
+"1045",1045,"41091","Female","No Complications","Survived",7179.2,7,56
+"828",828,"41091","Male","Complications","Survived",10169,7,43
+"9730",9730,"41071","Male","Complications","Survived",28191,24,85
+"1309",1309,"41091","Male","Complications","Survived",14138,14,75
+"8639",8639,"41091","Male","No Complications","Survived",9084,7,65
+"3642",3642,"41031","Female","No Complications","Survived",8144.35,6,71
+"8599",8599,"41071","Female","No Complications","Survived",6302,4,79
+"2883",2883,"41011","Male","Complications","Survived",8458,10,36
+"7862",7862,"41071","Male","Complications","Survived",7514.4,9,78
+"1773",1773,"41011","Male","Died","Died",8812.06,5,64
+"6587",6587,"41091","Male","Complications","Survived",8304.1,6,59
+"8801",8801,"41001","Male","No Complications","Survived",22438,10,46
+"7598",7598,"41041","Male","Complications","Survived",19131,8,47
+"4141",4141,"41091","Female","No Complications","Survived",12226,7,71
+"8526",8526,"41041","Female","No Complications","Survived",8964,6,68
+"2450",2450,"41091","Male","Died","Died",2050,1,74
+"1942",1942,"41091","Male","Complications","Survived",10017.29,10,60
+"1098",1098,"41091","Male","No Complications","Survived",3104.61,3,54
+"617",617,"41071","Female","Complications","Survived",5434.27,8,80
+"5434",5434,"41091","Male","Complications","Survived",6445,6,75
+"5224",5224,"41041","Male","Died","Died",2202,1,76
+"8973",8973,"41041","Female","No Complications","Survived",34759,18,65
+"9342",9342,"41011","Female","No Complications","Survived",27008,9,63
+"10933",10933,"41071","Male","Complications","Survived",4652.85,2,62
+"2244",2244,"41011","Male","Complications","Survived",12822,7,69
+"12265",12265,"41041","Male","Complications","Survived",8841,7,73
+"11023",11023,"41071","Female","Complications","Survived",33843,25,85
+"1915",1915,"41091","Female","No Complications","Survived",1003.58,1,81
+"6509",6509,"41091","Male","Complications","Survived",17883.7,6,66
+"524",524,"41071","Female","Complications","Survived",9183.05,15,81
+"12284",12284,"41011","Female","No Complications","Survived",6673,4,72
+"4870",4870,"41091","Male","No Complications","Survived",12775,7,74
+"9652",9652,"41091","Male","No Complications","Survived",2955,2,44
+"12093",12093,"41041","Female","Complications","Survived",10646,5,68
+"1420",1420,"41091","Male","No Complications","Survived",6119,3,74
+"10878",10878,"41091","Male","Complications","Survived",5011.1,8,61
+"8240",8240,"41041","Male","Complications","Survived",NA,3,62
+"3324",3324,"41041","Female","Complications","Survived",10608,9,69
+"3934",3934,"41091","Male","Complications","Survived",12611,10,52
+"9425",9425,"41001","Female","Complications","Survived",13217,8,82
+"4704",4704,"41071","Male","Complications","Survived",27445,21,74
+"9585",9585,"41011","Male","Complications","Survived",21723,10,48
+"6719",6719,"41011","Male","Complications","Survived",6674.15,7,52
+"7771",7771,"41041","Female","No Complications","Survived",4181.25,4,71
+"4561",4561,"41031","Male","No Complications","Survived",6634.69,6,58
+"255",255,"41091","Male","Died","Died",2013.55,1,76
+"6141",6141,"41091","Male","Died","Died",6936,9,94
+"12683",12683,"41091","Male","No Complications","Survived",9861,2,60
+"9364",9364,"41011","Male","Died","Died",5011,1,83
+"281",281,"41091","Male","Complications","Survived",5818.45,6,79
+"4545",4545,"41011","Male","Died","Died",1993.46,1,78
+"5327",5327,"41091","Female","Complications","Survived",14140.11,18,67
+"6978",6978,"41041","Female","Complications","Survived",3709.9,9,86
+"5309",5309,"41071","Male","No Complications","Survived",13317.78,4,40
+"8388",8388,"41091","Male","No Complications","Survived",9335,8,66
+"3365",3365,"41091","Male","No Complications","Survived",NA,6,58
+"1947",1947,"41091","Female","No Complications","Survived",7179.02,6,60
+"7054",7054,"41091","Male","No Complications","Survived",8988.79,6,61
+"10158",10158,"41071","Female","Complications","Survived",15347,11,92
+"10575",10575,"41041","Female","Complications","Survived",16588.24,13,86
+"222",222,"41091","Male","No Complications","Survived",6592.45,7,54
+"7143",7143,"41081","Female","Complications","Survived",9966.2,16,91
+"2702",2702,"41011","Male","Complications","Survived",8166.84,10,55
+"12256",12256,"41041","Male","Complications","Survived",12780,10,63
+"10067",10067,"41071","Female","Died","Died",2508,1,94
+"8725",8725,"41041","Male","No Complications","Survived",16168,8,42
+"5743",5743,"41071","Female","Complications","Survived",4027.6,5,94
+"5143",5143,"41001","Male","Complications","Survived",3958,2,46
+"2363",2363,"41051","Female","Complications","Survived",5989,6,55
+"7091",7091,"41091","Female","Died","Died",5165.73,3,65
+"2562",2562,"41091","Female","Complications","Survived",NA,8,81
+"1408",1408,"41091","Female","Died","Died",29105,7,73
+"8157",8157,"41091","Male","No Complications","Survived",5661,3,57
+"1956",1956,"41091","Male","No Complications","Survived",4981.33,5,78
+"12578",12578,"41011","Female","No Complications","Survived",16037.9,9,69
+"3421",3421,"41041","Female","Complications","Survived",15072.25,16,73
+"5593",5593,"41091","Female","Complications","Survived",14848.54,6,76
+"1945",1945,"41041","Male","No Complications","Survived",6269.84,8,70
+"12289",12289,"41081","Male","No Complications","Survived",6212,8,90
+"2602",2602,"41031","Male","Complications","Survived",11631.29,9,59
+"3536",3536,"41011","Male","No Complications","Survived",3184.3,2,52
+"12456",12456,"41071","Female","No Complications","Survived",8819.56,7,62
+"72",72,"41011","Male","No Complications","Survived",3512,5,66
+"7637",7637,"41041","Male","Complications","Survived",10889,9,66
+"11840",11840,"41081","Male","No Complications","Survived",11046.11,7,51
+"5552",5552,"41091","Male","Complications","Survived",7441.11,5,62
+"11147",11147,"41071","Female","Complications","Survived",7841.75,5,61
+"1179",1179,"41091","Female","No Complications","Survived",6413.41,9,77
+"9584",9584,"41091","Male","Complications","Survived",21964,14,65
+"6032",6032,"41041","Female","Complications","Survived",3337,4,75
+"1661",1661,"41041","Male","No Complications","Survived",11179,10,64
+"1374",1374,"41091","Male","No Complications","Survived",3010.81,3,61
+"9517",9517,"41041","Male","No Complications","Survived",5175,2,36
+"6715",6715,"41011","Male","Complications","Survived",12826.4,5,38
+"389",389,"41091","Male","Complications","Survived",3259,7,83
+"8482",8482,"41071","Male","No Complications","Survived",9496,7,42
+"2449",2449,"41091","Female","No Complications","Survived",4511,4,76
+"3917",3917,"41011","Male","Complications","Survived",19125,12,81
+"10401",10401,"41091","Male","No Complications","Survived",10258,3,52
+"5200",5200,"41091","Male","Complications","Survived",4195.1,4,55
+"515",515,"41071","Male","Complications","Survived",7048.94,10,80
+"2447",2447,"41091","Male","No Complications","Survived",1107,1,51
+"581",581,"41091","Male","No Complications","Survived",6612.24,7,71
+"335",335,"41091","Female","Complications","Survived",5621,10,69
+"7460",7460,"41091","Male","No Complications","Survived",1941,1,69
+"442",442,"41091","Male","Complications","Survived",3899,6,72
+"8546",8546,"41041","Male","No Complications","Survived",1374,1,50
+"504",504,"41071","Male","No Complications","Survived",8391.6,11,71
+"848",848,"41011","Male","Complications","Survived",13860,13,57
+"12655",12655,"41071","Female","No Complications","Survived",6791.72,7,79
+"8182",8182,"41091","Female","No Complications","Survived",24822,13,52
+"9654",9654,"41071","Female","Complications","Survived",23447,14,85
+"1602",1602,"41091","Female","No Complications","Survived",2839.75,5,78
+"7676",7676,"41041","Female","Complications","Survived",21045,23,80
+"5673",5673,"41071","Male","Complications","Survived",6030.14,6,52
+"4779",4779,"41071","Female","No Complications","Survived",7758.03,10,73
+"4713",4713,"41011","Male","Complications","Survived",NA,6,69
+"11813",11813,"41081","Female","No Complications","Survived",10337.26,11,61
+"9183",9183,"41091","Male","Complications","Survived",6315.7,10,85
+"7015",7015,"41071","Female","Complications","Survived",8652.61,8,69
+"11740",11740,"41041","Female","Complications","Survived",10913.6,10,83
+"8090",8090,"41091","Male","Died","Died",18360,12,75
+"3821",3821,"41071","Male","Complications","Survived",9515.48,10,65
+"10913",10913,"41011","Male","Complications","Survived",NA,19,85
+"2772",2772,"41071","Male","Complications","Survived",10595.75,10,49
+"7790",7790,"41071","Female","Complications","Survived",10916.6,13,76
+"12282",12282,"41081","Male","Complications","Survived",14561,11,73
+"9688",9688,"41011","Male","No Complications","Survived",6146,2,52
+"2958",2958,"41071","Male","Complications","Survived",5372,10,69
+"4807",4807,"41071","Male","Complications","Survived",7896.67,7,60
+"6311",6311,"41071","Female","No Complications","Survived",7463,8,66
+"5824",5824,"41071","Female","Complications","Survived",4799.9,7,85
+"2897",2897,"41011","Male","Complications","Survived",8478,12,68
+"6306",6306,"41091","Male","Complications","Survived",5357,8,80
+"2322",2322,"41091","Male","No Complications","Survived",4181,2,58
+"8194",8194,"41091","Male","Complications","Survived",12101,4,48
+"8556",8556,"41041","Female","No Complications","Survived",23011,14,56
+"8340",8340,"41041","Male","No Complications","Survived",15950,13,47
+"5464",5464,"41031","Female","Complications","Survived",6249.91,3,69
+"7162",7162,"41071","Male","Complications","Survived",9619.75,10,70
+"3706",3706,"41011","Male","Complications","Survived",9945.9,4,68
+"2782",2782,"41071","Male","Complications","Survived",8311.38,8,82
+"9372",9372,"41091","Female","No Complications","Survived",34039,7,66
+"5289",5289,"41091","Male","No Complications","Survived",19665.64,8,71
+"12214",12214,"41011","Male","No Complications","Survived",9391,7,59
+"8625",8625,"41011","Female","Complications","Survived",10684,7,76
+"2293",2293,"41091","Male","No Complications","Survived",5709,4,49
+"4348",4348,"41011","Male","No Complications","Survived",5687,7,69
+"12570",12570,"41071","Male","Died","Died",13878.54,8,81
+"1651",1651,"41041","Female","Complications","Survived",7590,7,67
+"9121",9121,"41091","Male","No Complications","Survived",9592,8,49
+"12545",12545,"41071","Male","Complications","Survived",16577.22,12,81
+"11254",11254,"41091","Male","Complications","Survived",4226.25,4,69
+"10103",10103,"41011","Female","No Complications","Survived",6750,5,80
+"12666",12666,"41041","Female","No Complications","Survived",13034.56,6,56
+"11929",11929,"41091","Male","Complications","Survived",NA,9,60
+"5564",5564,"41091","Male","No Complications","Survived",11715.13,5,66
+"11277",11277,"41041","Female","Died","Died",1535,1,78
+"2399",2399,"41091","Female","Died","Died",NA,1,93
+"2717",2717,"41071","Male","Complications","Survived",5842.71,7,78
+"1276",1276,"41011","Female","No Complications","Survived",6714.3,13,77
+"651",651,"41041","Male","Complications","Survived",10222.23,11,67
+"118",118,"41041","Female","Complications","Survived",7223.05,1,68
+"2963",2963,"41041","Female","No Complications","Survived",6669,8,62
+"5144",5144,"41071","Female","No Complications","Survived",6572,7,57
+"11452",11452,"41091","Female","No Complications","Survived",5199.55,5,59
+"6979",6979,"41091","Female","Complications","Survived",7028.41,9,87
+"563",563,"41011","Female","Complications","Survived",10560.1,10,67
+"9831",9831,"41011","Male","Complications","Survived",19947,10,76
+"6985",6985,"41011","Male","Complications","Survived",10421.95,5,69
+"4640",4640,"41071","Female","Complications","Survived",2850,7,82
+"12497",12497,"41051","Male","Complications","Survived",10009.26,7,64
+"11871",11871,"41091","Female","No Complications","Survived",7128.69,1,67
+"4995",4995,"41071","Male","Complications","Survived",3808.37,2,79
+"9862",9862,"41041","Female","No Complications","Survived",13322,10,89
+"2059",2059,"41071","Male","Complications","Survived",3949.19,3,73
+"10743",10743,"41091","Female","Complications","Survived",13507,6,76
+"6148",6148,"41041","Female","Complications","Survived",8263,7,51
+"1157",1157,"41091","Male","Died","Died",2740.03,1,51
+"9478",9478,"41051","Female","No Complications","Survived",13350,7,56
+"11225",11225,"41041","Female","No Complications","Survived",9632.35,8,58
+"4643",4643,"41041","Male","No Complications","Survived",8434,7,52
+"10488",10488,"41011","Male","No Complications","Survived",8594,8,63
+"1373",1373,"41071","Male","No Complications","Survived",4224.2,5,80
+"464",464,"41091","Male","No Complications","Survived",4104.78,6,89
+"1518",1518,"41091","Female","Complications","Survived",14448.91,7,59
+"7559",7559,"41091","Male","No Complications","Survived",NA,7,60
+"3379",3379,"41091","Male","No Complications","Survived",4474,4,63
+"9443",9443,"41081","Female","No Complications","Survived",6007,3,71
+"10411",10411,"41091","Female","Complications","Survived",19156,10,66
+"11125",11125,"41011","Female","No Complications","Survived",8591,10,87
+"11284",11284,"41091","Male","Complications","Survived",9030.3,7,71
+"4435",4435,"41091","Male","Died","Died",1383,1,89
+"5648",5648,"41091","Male","Complications","Survived",13779.43,8,65
+"3095",3095,"41091","Male","Complications","Survived",8473,15,71
+"1607",1607,"41041","Female","Died","Died",3804.75,6,78
+"1338",1338,"41091","Female","Died","Died",18236.68,18,73
+"5746",5746,"41071","Female","No Complications","Survived",3959.22,5,57
+"12784",12784,"41071","Female","No Complications","Survived",10287,10,62
+"9154",9154,"41041","Male","Died","Died",6864.8,5,83
+"10427",10427,"41041","Female","No Complications","Survived",7404,7,70
+"3804",3804,"41041","Female","Died","Died",9796.92,4,79
+"8754",8754,"41081","Female","Complications","Survived",39686,18,77
+"11512",11512,"41091","Male","No Complications","Survived",14184,13,53
+"4328",4328,"41041","Male","Complications","Survived",9793,10,55
+"6781",6781,"41041","Male","Complications","Survived",10519.7,5,44
+"12177",12177,"41091","Male","Complications","Survived",5581.5,3,65
+"1693",1693,"41091","Male","No Complications","Survived",13237,13,68
+"4420",4420,"41011","Male","No Complications","Survived",5401,5,73
+"12479",12479,"41041","Female","Complications","Survived",9703.66,10,86
+"5402",5402,"41011","Male","Died","Died",5436,2,90
+"6289",6289,"41011","Female","No Complications","Survived",8140,11,76
+"485",485,"41091","Male","No Complications","Survived",10506.27,13,66
+"7629",7629,"41071","Female","Complications","Survived",7811,7,75
+"6512",6512,"41091","Male","Complications","Survived",10305.3,2,44
+"9936",9936,"41001","Female","No Complications","Survived",29700,22,72
+"3354",3354,"41091","Male","Complications","Survived",NA,7,75
+"2651",2651,"41041","Male","Complications","Survived",7005,7,45
+"12580",12580,"41041","Male","Complications","Survived",47910.12,34,60
+"2170",2170,"41091","Male","No Complications","Survived",5953.25,6,48
+"4165",4165,"41041","Male","No Complications","Survived",12594,7,52
+"4760",4760,"41041","Male","No Complications","Survived",6375.54,6,58
+"1495",1495,"41091","Female","No Complications","Survived",13247,8,76
+"12063",12063,"41091","Male","Complications","Survived",12306,11,73
+"1409",1409,"41091","Female","Complications","Survived",14250,11,87
+"7495",7495,"41091","Male","Complications","Survived",9797,10,84
