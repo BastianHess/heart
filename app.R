@@ -7,6 +7,8 @@ library(DT)
 library(ggplot2)
 library(plotly)
 
+source("R/helpers.R")
+
 heart <- readRDS("data/heart.rds")
 
 ###############################################################################
@@ -128,16 +130,29 @@ server <- function(input, output, session) { ##################################
   })
   
   # Female stats
+  # output$f_mortality <- renderText({
+  #   d <- filtered_data()[filtered_data()$SEX == "Female", ]
+  #   paste0(round(100 * sum(d$DIED == "Died") / nrow(d), 1), "%")
+  # })
+  
+  # new:
   output$f_mortality <- renderText({
-    d <- filtered_data()[filtered_data()$SEX == "Female", ]
-    paste0(round(100 * sum(d$DIED == "Died") / nrow(d), 1), "%")
+    compute_mortality(filtered_data()[filtered_data()$SEX == "Female", ])
   })
   
+  
+  # # Male stats
+  # output$m_mortality <- renderText({
+  #   d <- filtered_data()[filtered_data()$SEX == "Male", ]
+  #   paste0(round(100 * sum(d$DIED == "Died") / nrow(d), 1), "%")
+  # })
+  
+  # new:
   # Male stats
   output$m_mortality <- renderText({
-    d <- filtered_data()[filtered_data()$SEX == "Male", ]
-    paste0(round(100 * sum(d$DIED == "Died") / nrow(d), 1), "%")
+    compute_mortality(filtered_data()[filtered_data()$SEX == "Male", ])
   })
+  
   
   output$o_mortality <- renderText({
     # d <- filtered_data()[filtered_data()$SEX == "Male", ]
@@ -183,7 +198,7 @@ server <- function(input, output, session) { ##################################
     df <- filtered_data()
     req(nrow(df) >= 1)
     if(nrow(df) > 1000) {
-      df <- df[sample(nrow(df), 1000), ]
+      df <- df[sample(nrow(df), 1000), ] # this is only for the course, so that it renders quickly
     }
  #    browser()  #  to stop and check/look at things
                  #  call: summary(df) and  write.csv(df, "temp.csv")
