@@ -166,7 +166,9 @@ server <- function(input, output, session) { ##################################
     paste0(round(100 * sum(d$DIED == "Died") / nrow(d), 1), "%")
   })
 
-  # split this up into two parts:
+  ## split this up into two parts:
+  ## The plot code is the same — we just moved it into a reactive() so both
+  ## renderPlot and the download module can use it.
   # output$age_hist <- renderPlot({
   #   req(nrow(filtered_data()) >= 2) # prevents the plot from crashing when 
   #   # filters produce too few rows  req() silently stops rendering when its 
@@ -201,6 +203,7 @@ server <- function(input, output, session) { ##################################
     age_plot()
   })
   
+  mod_download_plot_server("dl_age", filename = "age_distribution", figure = age_plot)
   
   output$age_hist_2 <- renderPlot({
     req(nrow(filtered_data()) >= 2) # prevents the plot from crashing when 
