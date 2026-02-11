@@ -53,12 +53,21 @@ ui <- page_sidebar( ###########################################################
                   value = textOutput("f_mortality"),
                   theme = "danger",
                   showcase = bsicons::bs_icon("gender-female")
+                  # The showcase parameter adds an icon to each value box using 
+                  # the bsicons package. The bsicons::bs_icon() syntax calls the 
+                  # function directly without loading the entire library.
                 ),
                 value_box(
                   title = "Male Mortality",
                   value = textOutput("m_mortality"),
                   theme = "primary",
                   showcase = bsicons::bs_icon("gender-male")
+                ),
+                value_box(
+                  title = "Overall Mortality",
+                  value = textOutput("o_mortality"),
+                  theme = "primary",
+                  showcase = bsicons::bs_icon("gender-ambiguous")
                 )
               )
     ),
@@ -107,7 +116,12 @@ server <- function(input, output, session) { ##################################
     paste0(round(100 * sum(d$DIED == "Died") / nrow(d), 1), "%")
   })
   
-  
+  output$o_mortality <- renderText({
+    # d <- filtered_data()[filtered_data()$SEX == "Male", ]
+    d <- filtered_data()
+    paste0(round(100 * sum(d$DIED == "Died") / nrow(d), 1), "%")
+  })
+
 }
 
 
