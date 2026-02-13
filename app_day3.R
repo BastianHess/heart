@@ -152,6 +152,41 @@ server <- function(input, output, session) { ##################################
     d
   })
   
+  financial_data <- reactive({
+    d <- filtered_data()
+    
+    # remove missing charges
+    d <- d[!is.na(d$CHARGES), ]
+    
+    d
+  })
+  
+  output$avg_charges <- renderText({
+    d <- financial_data()
+    req(nrow(d) > 0)
+    
+    avg <- mean(d$CHARGES)
+    paste0("$", format(round(avg, 2), big.mark = ","))
+  })
+  
+  output$avg_los <- renderText({
+    d <- filtered_data()
+    req(nrow(d) > 0)
+    
+    avg <- mean(d$LOS)
+    paste0(round(avg, 1), " days")
+  })
+  
+  output$cost_per_day <- renderText({
+    d <- financial_data()
+    d <- d[d$LOS > 0, ]
+    req(nrow(d) > 0)
+    
+    avg <- mean(d$CHARGES / d$LOS)
+    paste0("$", format(round(avg, 2), big.mark = ","))
+  })
+  
+  
   
   output$data_table <- DT::renderDataTable({
     filtered_data()
