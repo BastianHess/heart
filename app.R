@@ -130,7 +130,21 @@ ui <- page_sidebar( ###########################################################
     
     
      # nav_panel("Data", "Data content coming soon...")
-    nav_panel("Data", DT::dataTableOutput("data_table"))
+    nav_panel("Data", DT::dataTableOutput("data_table")),
+    nav_panel("About",
+              card(
+                card_header("About This Dashboard"),
+                tags$p("This dashboard explores outcomes, length of stay, and costs for 12,844 heart attack patients treated in New York State in 1993. The data are provided in the app's ", tags$code("data/heart.rds"), " file."),
+                tags$p("Key findings on why women have higher heart-attack mortality include:"),
+                tags$ul(
+                  tags$li("Later age and higher comorbidity burden at presentation, which worsens outcomes."),
+                  tags$li("Symptom patterns that may be less classic, contributing to delays in recognition and treatment."),
+                  tags$li("Different underlying disease patterns such as MINOCA (myocardial infarction with non-obstructive coronary arteries), which can be harder to diagnose and treat."),
+                  tags$li("Worse short-term outcomes in younger women, influenced by both cardiac and non-cardiac factors."),
+                  tags$li("An awareness gap that can delay care-seeking and risk recognition.")
+                )
+              )
+    )
     
   )
 )
@@ -309,4 +323,3 @@ server <- function(input, output, session) { ##################################
 
 ###############################################################################
 shinyApp(ui = ui, server = server)
-
