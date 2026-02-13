@@ -56,6 +56,11 @@ ui <- page_sidebar( ###########################################################
       inputId = "reset",
       label = "Reset",
       icon = bsicons::bs_icon("arrow-counterclockwise")
+    ),
+    
+    downloadButton(
+      outputId = "download_data",
+      label = "Download filtered data (.csv)"
     )
     
     
@@ -247,6 +252,23 @@ server <- function(input, output, session) { ###################################
   output$data_table <- DT::renderDataTable({
     filtered_data()
   })
+  
+  
+  output$download_data <- downloadHandler(
+    filename = function() {
+      paste0("heart_filtered_", Sys.Date(), ".csv")
+    },
+    content = function(file) {
+      d <- filtered_data()
+      
+      validate(
+        need(nrow(d) > 0, "No data available to download.")
+      )
+      
+      write.csv(d, file, row.names = FALSE)
+    }
+  )
+  
   
   # Female stats
   # output$f_mortality <- renderText({
