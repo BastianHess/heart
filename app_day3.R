@@ -129,7 +129,7 @@ ui <- page_sidebar( ###########################################################
               
               card(
                 card_header("Daily Charges Distribution"),
-                plotOutput("daily_cost_boxplot", height = "500px")
+                plotlyOutput("daily_cost_boxplot", height = "500px")
               )
     ),
      # nav_panel("Data", "Data content coming soon...")
@@ -181,11 +181,21 @@ server <- function(input, output, session) { ###################################
     d
   })
   
-  output$daily_cost_boxplot <- renderPlot({
+  
+  output$daily_cost_boxplot <- renderPlotly({
     d <- daily_cost_data()
     req(nrow(d) >= 2)
     
-    ggplot(d, aes(x = SEX, y = COST_PER_DAY, fill = SEX)) +
+    p <- ggplot(d, aes(
+      x = SEX,
+      y = COST_PER_DAY,
+      fill = SEX,
+      text = paste(
+        "Sex:", SEX,
+        "<br>DRG:", DRG,
+        "<br>Cost per day: $", round(COST_PER_DAY, 2)
+      )
+    )) +
       geom_boxplot(alpha = 0.7, outlier.alpha = 0.3) +
       facet_wrap(~ DRG, scales = "free_y") +
       labs(
@@ -200,7 +210,12 @@ server <- function(input, output, session) { ###################################
         strip.text = element_text(size = 11),
         legend.position = "none"
       )
-  })
+    
+    ggplotly(p, tooltip = "text")
+  }) # end of daily_cost_boxplot
+  
+  
+  
   
   output$avg_charges <- renderText({
     d <- financial_data()
