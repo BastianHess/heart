@@ -125,6 +125,11 @@ ui <- page_sidebar( ###########################################################
                   value = textOutput("cost_per_day"),
                   theme = "success"
                 )
+              ),
+              
+              card(
+                card_header("Daily Charges Distribution"),
+                plotOutput("daily_cost_boxplot", height = "500px")
               )
     ),
      # nav_panel("Data", "Data content coming soon...")
@@ -133,8 +138,8 @@ ui <- page_sidebar( ###########################################################
   )
 )
 
-###############################################################################
-server <- function(input, output, session) { ##################################
+##############################################################################################################################################################
+server <- function(input, output, session) { #################################################################################################################
   
   
   filtered_data <- reactive({
@@ -159,6 +164,42 @@ server <- function(input, output, session) { ##################################
     d <- d[!is.na(d$CHARGES), ]
     
     d
+  })
+  
+  daily_cost_data <- reactive({
+    d <- financial_data()
+    
+    # remove bad LOS
+    d <- d[d$LOS > 0, ]
+    
+    # compute cost per day
+    d$COST_PER_DAY <- d$CHARGES / d$LOS
+    
+    # remove invalid values
+    d <- d[is.finite(d$COST_PER_DAY), ]
+    
+    d
+  })
+  
+  output$daily_cost_boxplot <- renderPlot({
+    d <- daily_cost_data()
+    req(nrow(d) >= 2)
+    
+    ggplot(d, aes(x = SEX, y = COST_PER_DAY, fill = SEX)) +
+      geom_boxplot(alpha = 0.7, outlier.alpha = 0.3) +
+      facet_wrap(~ DRG, scales = "free_y") +
+      labs(
+        x = "Sex",
+        y = "Cost per Day ($)",
+        title = "Distribution of Daily Charges"
+      ) +
+      theme_minimal() +
+      theme(
+        axis.title = element_text(size = 14),
+        axis.text = element_text(size = 12),
+        strip.text = element_text(size = 11),
+        legend.position = "none"
+      )
   })
   
   output$avg_charges <- renderText({
