@@ -100,6 +100,30 @@ ui <- page_sidebar( ###########################################################
     ),
     
     
+    nav_panel("Length of Stay",
+              layout_column_wrap(
+                width = 1/2,
+                value_box(
+                  title = "Female Avg LOS",
+                  value = textOutput("f_los_mean"),
+                  theme = "danger",
+                  showcase = bsicons::bs_icon("gender-female")
+                ),
+                value_box(
+                  title = "Male Avg LOS",
+                  value = textOutput("m_los_mean"),
+                  theme = "primary",
+                  showcase = bsicons::bs_icon("gender-male")
+                )
+              ),
+              card(
+                card_header("LOS Distribution"),
+                plotOutput("los_hist"),
+                mod_download_plot_ui("dl_los", label = "Download")
+              )
+    ),
+    
+    
     nav_panel("Explore", 
               plotlyOutput("scatter_plot")),
    
@@ -165,6 +189,18 @@ server <- function(input, output, session) { ##################################
     d <- filtered_data()
     paste0(round(100 * sum(d$DIED == "Died") / nrow(d), 1), "%")
   })
+  
+  output$f_los_mean <- renderText({
+    d <- filtered_data()[filtered_data()$SEX == "Female", ]
+    if (nrow(d) == 0) return("N/A")
+    paste0(round(mean(d$LOS, na.rm = TRUE), 1), " days")
+  })
+  
+  output$m_los_mean <- renderText({
+    d <- filtered_data()[filtered_data()$SEX == "Male", ]
+    if (nrow(d) == 0) return("N/A")
+    paste0(round(mean(d$LOS, na.rm = TRUE), 1), " days")
+  })
 
   ## split this up into two parts:
   ## The plot code is the same — we just moved it into a reactive() so both
@@ -220,6 +256,26 @@ server <- function(input, output, session) { ##################################
       )
   })
   
+  # Create the LOS plot as a reactive (reusable)
+  los_plot <- reactive({
+    req(nrow(filtered_data()) >= 2)
+    ggplot(filtered_data(), aes(x = LOS, fill = DIED)) +
+      geom_density(alpha = 0.5) +
+      labs(x = "Length of Stay (days)", y = "Density", fill = "DIED") +
+      facet_wrap(~ SEX) +
+      theme_minimal() +
+      theme(
+        axis.title = element_text(size = 16),
+        axis.text = element_text(size = 14)
+      )
+  })
+  
+  output$los_hist <- renderPlot({
+    los_plot()
+  })
+  
+  mod_download_plot_server("dl_los", filename = "los_distribution", figure = los_plot)
+  
   # Challenge. Filter to “Died” only. What do you notice about the length of 
   # stay? Try changing y = LOS to y = CHARGES for a different perspective.
   
@@ -253,5 +309,4 @@ server <- function(input, output, session) { ##################################
 
 ###############################################################################
 shinyApp(ui = ui, server = server)
-
 
