@@ -87,6 +87,14 @@ ui <- page_sidebar( ###########################################################
                 )
               ), # end of layout-column wrap
               card(
+                card_header("Sex Comparison Snapshot"),
+                tableOutput("sex_snapshot")
+              ),
+              card(
+                card_header("Mortality Rate by Sex"),
+                plotOutput("mortality_gap_plot")
+              ),
+              card(
                 card_header("Age Distribution"),
                 plotOutput("age_hist"),
                 mod_download_plot_ui("dl_age", label = "Download")  # this is the new downloadbutton
@@ -120,12 +128,27 @@ ui <- page_sidebar( ###########################################################
                 card_header("LOS Distribution"),
                 plotOutput("los_hist"),
                 mod_download_plot_ui("dl_los", label = "Download")
+              ),
+              layout_column_wrap(
+                width = 1/2,
+                card(
+                  card_header("LOS by Sex (Boxplot)"),
+                  plotOutput("los_by_sex_box")
+                ),
+                card(
+                  card_header("Age by Sex (Boxplot)"),
+                  plotOutput("age_by_sex_box")
+                )
               )
     ),
     
     
     nav_panel("Explore", 
-              plotlyOutput("scatter_plot")),
+              plotlyOutput("scatter_plot"),
+              card(
+                card_header("Top Diagnoses by Sex"),
+                plotOutput("diagnosis_by_sex_plot")
+              )),
    
     
     
@@ -166,6 +189,71 @@ server <- function(input, output, session) { ##################################
     }
     d <- d[d$AGE >= input$age_range[1] & d$AGE <= input$age_range[2], ]
     d
+  })
+
+  format_pct <- function(x, digits = 1) {
+    if (is.na(x)) return("N/A")
+    paste0(round(100 * x, digits), "%")
+  }
+
+  format_num <- function(x, digits = 1, suffix = "") {
+    if (is.na(x)) return("N/A")
+    paste0(round(x, digits), suffix)
+  }
+
+  format_currency <- function(x) {
+    if (is.na(x)) return("N/A")
+    paste0("$", format(round(x, 2), big.mark = ","))
+  }
+
+  output$sex_snapshot <- renderTable({
+    d <- filtered_data()
+    sexes <- c("Female", "Male")
+    has_charges <- "CHARGES" %in% names(d)
+    rows <- lapply(sexes, function(sex) {
+      ds <- d[d$SEX == sex, ]
+      n <- nrow(ds)
+      mortality <- if (n > 0) sum(ds$DIED == "Died", na.rm = TRUE) / n else NA
+      age_med <- if (n > 0) median(ds$AGE, na.rm = TRUE) else NA
+      los_med <- if (n > 0) median(ds$LOS, na.rm = TRUE) else NA
+      charges_med <- if (n > 0 && has_charges) median(ds$CHARGES, na.rm = TRUE) else NA
+      data.frame(
+        Sex = sex,
+        Patients = n,
+        `Mortality Rate` = format_pct(mortality),
+        `Median Age` = format_num(age_med),
+        `Median LOS` = format_num(los_med, suffix = " days"),
+        `Median Charges` = if (has_charges) format_currency(charges_med) else "N/A",
+        check.names = FALSE,
+        stringsAsFactors = FALSE
+      )
+    })
+    do.call(rbind, rows)
+  }, rownames = FALSE)
+
+  output$mortality_gap_plot <- renderPlot({
+    d <- filtered_data()
+    req(nrow(d) > 0)
+    sexes <- c("Female", "Male")
+    mortality <- sapply(sexes, function(sex) {
+      ds <- d[d$SEX == sex, ]
+      if (nrow(ds) == 0) return(NA_real_)
+      sum(ds$DIED == "Died", na.rm = TRUE) / nrow(ds)
+    })
+    df <- data.frame(
+      SEX = factor(sexes, levels = sexes),
+      MORTALITY = mortality
+    )
+    ggplot(df, aes(x = SEX, y = MORTALITY, fill = SEX)) +
+      geom_col(alpha = 0.8, width = 0.6, na.rm = TRUE) +
+      scale_y_continuous(labels = function(x) paste0(round(100 * x), "%")) +
+      labs(x = "Sex", y = "Mortality Rate") +
+      theme_minimal() +
+      theme(
+        legend.position = "none",
+        axis.title = element_text(size = 14),
+        axis.text = element_text(size = 12)
+      )
   })
   
   
@@ -289,6 +377,34 @@ server <- function(input, output, session) { ##################################
   })
   
   mod_download_plot_server("dl_los", filename = "los_distribution", figure = los_plot)
+
+  output$los_by_sex_box <- renderPlot({
+    d <- filtered_data()
+    req(nrow(d) >= 2)
+    ggplot(d, aes(x = SEX, y = LOS, fill = SEX)) +
+      geom_boxplot(alpha = 0.7, outlier.alpha = 0.3) +
+      labs(x = "Sex", y = "Length of Stay (days)") +
+      theme_minimal() +
+      theme(
+        legend.position = "none",
+        axis.title = element_text(size = 14),
+        axis.text = element_text(size = 12)
+      )
+  })
+
+  output$age_by_sex_box <- renderPlot({
+    d <- filtered_data()
+    req(nrow(d) >= 2)
+    ggplot(d, aes(x = SEX, y = AGE, fill = SEX)) +
+      geom_boxplot(alpha = 0.7, outlier.alpha = 0.3) +
+      labs(x = "Sex", y = "Age") +
+      theme_minimal() +
+      theme(
+        legend.position = "none",
+        axis.title = element_text(size = 14),
+        axis.text = element_text(size = 12)
+      )
+  })
   
   # Challenge. Filter to “Died” only. What do you notice about the length of 
   # stay? Try changing y = LOS to y = CHARGES for a different perspective.
@@ -307,6 +423,32 @@ server <- function(input, output, session) { ##################################
       geom_smooth(method = "lm", se = FALSE) +
       theme_minimal()
     ggplotly(p)
+  })
+
+  output$diagnosis_by_sex_plot <- renderPlot({
+    d <- filtered_data()
+    req(nrow(d) >= 2)
+    req("DIAGNOSIS" %in% names(d))
+    diag_counts <- sort(table(d$DIAGNOSIS), decreasing = TRUE)
+    if (length(diag_counts) == 0) return(NULL)
+    top_n <- min(6, length(diag_counts))
+    top_diag <- names(diag_counts)[1:top_n]
+    d <- d[d$DIAGNOSIS %in% top_diag & !is.na(d$SEX), ]
+    tab <- table(d$DIAGNOSIS, d$SEX)
+    df <- as.data.frame(tab)
+    names(df) <- c("DIAGNOSIS", "SEX", "COUNT")
+    df$SHARE <- ave(df$COUNT, df$SEX, FUN = function(x) x / sum(x))
+    ggplot(df, aes(x = DIAGNOSIS, y = SHARE, fill = SEX)) +
+      geom_col(position = "dodge", alpha = 0.85) +
+      scale_y_continuous(labels = function(x) paste0(round(100 * x), "%")) +
+      labs(x = "Diagnosis", y = "Share of Patients") +
+      theme_minimal() +
+      theme(
+        axis.title = element_text(size = 14),
+        axis.text = element_text(size = 11),
+        axis.text.x = element_text(angle = 25, hjust = 1),
+        legend.title = element_blank()
+      )
   })
   
   observeEvent(input$reset, {
