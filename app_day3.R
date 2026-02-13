@@ -158,7 +158,8 @@ ui <- page_sidebar( ###########################################################
               
               card(
                 card_header("Daily Charges Distribution"),
-                plotlyOutput("daily_cost_boxplot", height = "500px")
+                plotlyOutput("daily_cost_boxplot", height = "500px"),
+                mod_download_plot_ui("dl_charges", label = "Download")
               )
     ),
      # nav_panel("Data", "Data content coming soon...")
@@ -211,11 +212,11 @@ server <- function(input, output, session) { ###################################
   })
   
   
-  output$daily_cost_boxplot <- renderPlotly({
+  daily_cost_plot <- reactive({
     d <- daily_cost_data()
     req(nrow(d) >= 2)
     
-    p <- ggplot(d, aes(
+    ggplot(d, aes(
       x = SEX,
       y = COST_PER_DAY,
       fill = SEX,
@@ -239,8 +240,10 @@ server <- function(input, output, session) { ###################################
         strip.text = element_text(size = 11),
         legend.position = "none"
       )
-    
-    ggplotly(p, tooltip = "text")
+  })
+
+  output$daily_cost_boxplot <- renderPlotly({
+    ggplotly(daily_cost_plot(), tooltip = "text")
   }) # end of daily_cost_boxplot
   
   
@@ -410,6 +413,7 @@ server <- function(input, output, session) { ###################################
   })
   
   mod_download_plot_server("dl_los", filename = "los_distribution", figure = los_plot)
+  mod_download_plot_server("dl_charges", filename = "daily_charges_distribution", figure = daily_cost_plot)
   
   # Challenge. Filter to “Died” only. What do you notice about the length of 
   # stay? Try changing y = LOS to y = CHARGES for a different perspective.
@@ -444,4 +448,3 @@ server <- function(input, output, session) { ###################################
 
 ###############################################################################
 shinyApp(ui = ui, server = server)
-
